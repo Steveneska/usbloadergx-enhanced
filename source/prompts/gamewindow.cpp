@@ -102,7 +102,7 @@ GameWindow::GameWindow(GameBrowseMenu *m, struct discHdr *header)
 		nameBtn->SetEffectGrow();
 	}
 
-	sizeTxt = new GuiText((char*) NULL, 22, thColor("r=0 g=0 b=0 a=255 - game window size text color"));
+	sizeTxt = new GuiText((char*) NULL, 22, thColor("r=255 g=255 b=255 a=0 - game window size text color"));
 	sizeTxt->SetAlignment(ALIGN_CENTER, ALIGN_TOP);
 	sizeTxt->SetPosition(135, 70);
 

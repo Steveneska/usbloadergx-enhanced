@@ -207,7 +207,7 @@ GuiGameGrid::GuiGameGrid(int w, int h, const char *themePath, int offset) :
 	height = h;
 	listOffset = LIMIT(offset, 0, MAX(0, gameList.size()-1));
 	theme_posX = thInt("0 - game grid layout pos x");
-	theme_posY = thInt("20 - game grid layout pos y");
+	theme_posY = thInt("-25 - game grid layout pos y");
 
 	selectable = true;
 

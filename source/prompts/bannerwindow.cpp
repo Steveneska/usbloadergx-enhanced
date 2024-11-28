@@ -106,7 +106,7 @@ BannerWindow::BannerWindow(GameBrowseMenu *m, struct discHdr *header)
 	trigMinus = new GuiTrigger;
 	trigMinus->SetButtonOnlyTrigger(-1, WPAD_BUTTON_MINUS | WPAD_CLASSIC_BUTTON_MINUS, PAD_TRIGGER_L);
 
-	playcntTxt = new GuiText((char*) NULL, 18, thColor("r=0 g=0 b=0 a=255 - banner window playcount text color"));
+	playcntTxt = new GuiText((char*) NULL, 18, thColor("r=255 g=255 b=255 a=0 - banner window playcount text color"));
 	playcntTxt->SetAlignment(ALIGN_CENTER, ALIGN_MIDDLE);
 	playcntTxt->SetPosition(thInt("0 - banner window play count pos x"),
 							thInt("215 - banner window play count pos y") - Settings.AdjustOverscanY / 2);
@@ -119,7 +119,7 @@ BannerWindow::BannerWindow(GameBrowseMenu *m, struct discHdr *header)
 	settingsBtn->SetTrigger(trigA);
 	if (strcmp(Settings.db_language, "KO") == 0)
 	{
-		settingsBtnTxt = new GuiText(tr("Settings"), 35, thColor("r=0 g=0 b=0 a=255 - game window size text color"));
+		settingsBtnTxt = new GuiText(tr("Settings"), 35, thColor("r=255 g=255 b=255 a=0 - game window size text color"));
 		settingsBtn->SetPosition(Settings.widescreen ? -113 : -131, 161);
 		settingsBtn->SetLabel(settingsBtnTxt);
 	}
@@ -132,7 +132,7 @@ BannerWindow::BannerWindow(GameBrowseMenu *m, struct discHdr *header)
 	startBtn->SetTrigger(trigA);
 	if (strcmp(Settings.db_language, "KO") == 0)
 	{	
-		startBtnTxt = new GuiText(tr("Start"), 35, thColor("r=0 g=0 b=0 a=255 - game window size text color"));
+		startBtnTxt = new GuiText(tr("Start"), 35, thColor("r=255 g=255 b=255 a=0 - game window size text color"));
 		startBtn->SetPosition(Settings.widescreen ? 114 : 132, 161);
 		startBtn->SetLabel(startBtnTxt);
 	}
@@ -146,7 +146,7 @@ BannerWindow::BannerWindow(GameBrowseMenu *m, struct discHdr *header)
 	backBtn->SetTrigger(1, trigB);
 	if (strcmp(Settings.db_language, "KO") == 0)
 	{
-		backBtnTxt = new GuiText(tr("Back"), 35, thColor("r=0 g=0 b=0 a=255 - game window size text color"));
+		backBtnTxt = new GuiText(tr("Back"), 35, thColor("r=255 g=255 b=255 a=0 - game window size text color"));
 		backBtn->SetLabel(backBtnTxt);
 	}
 

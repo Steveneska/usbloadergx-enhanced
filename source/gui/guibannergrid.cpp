@@ -55,17 +55,17 @@ static inline int Idx2Column(int sIdx)
 
 GuiBannerGrid::GuiBannerGrid(int listOffset)
 	: XOffset(thInt("0 - game bannergrid layout pos x"))
-	, YOffset(thInt("-50 - game bannergrid layout pos y"))
+	, YOffset(thInt("-81 - game bannergrid layout pos y"))
 	, fAnimation(0.f)
 	, fAnimStep(Settings.BannerGridSpeed)
 	, AnimationRunning(false)
-	, gridFrameColor(thColor("r=237 g=237 b=237 a=255 - banner icon frame color"))
+	, gridFrameColor(thColor("r=41 g=41 b=41 a=255 - banner icon frame color"))
 	, highliteColor(thColor("r=52 g=190 b=237 a=255 - banner icon highlite color"))
 {
 	GXColor gridTevColor[3];
-	gridTevColor[0] = thColor("r=130 g=130 b=130 a=0 - banner icon frame edge tev color 1");
-	gridTevColor[1] = thColor("r=180 g=180 b=180 a=255 - banner icon frame edge tev color 2");
-	gridTevColor[2] = thColor("r=255 g=255 b=255 a=255 - banner icon frame edge tev color 3");
+	gridTevColor[0] = thColor("r=191 g=191 b=191 a=0 - banner icon frame edge tev color 1");
+	gridTevColor[1] = thColor("r=191 g=191 b=191 a=255 - banner icon frame edge tev color 2");
+	gridTevColor[2] = thColor("r=191 g=191 b=191 a=255 - banner icon frame edge tev color 3");
 
 	for(int i = 0; i < 3; i++)
 		gridFrameTevColor[i] = (GXColorS10) { gridTevColor[i].r, gridTevColor[i].g, gridTevColor[i].b, gridTevColor[i].a };

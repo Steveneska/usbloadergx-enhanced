@@ -81,7 +81,7 @@ CategoryPrompt::CategoryPrompt(const std::string &title)
 	addButton->SetImage(addImg);
 	addButton->SetLabel(addTxt);
 	addButton->SetAlignment(thAlign("left - category prompt add button align hor"), thAlign("top - category prompt add button align ver"));
-	addButton->SetPosition(width/2-thInt("180 - category prompt add button pos x")-addImg->GetWidth()/2, thInt("330 - category prompt add button pos y"));
+	addButton->SetPosition(width/2-thInt("182 - category prompt add button pos x")-addImg->GetWidth()/2, thInt("327 - category prompt add button pos y"));
 	addButton->SetSoundOver(btnSoundOver);
 	addButton->SetSoundClick(btnSoundClick);
 	addButton->SetTrigger(&trigA);
@@ -99,7 +99,7 @@ CategoryPrompt::CategoryPrompt(const std::string &title)
 	deleteButton->SetImage(deleteImg);
 	deleteButton->SetLabel(deleteTxt);
 	deleteButton->SetAlignment(thAlign("left - category prompt delete button align hor"), thAlign("top - category prompt delete button align ver"));
-	deleteButton->SetPosition(width/2+thInt("5 - category prompt delete button pos x"), thInt("330 - category prompt delete button pos y"));
+	deleteButton->SetPosition(width/2+thInt("5 - category prompt delete button pos x"), thInt("327 - category prompt delete button pos y"));
 	deleteButton->SetSoundOver(btnSoundOver);
 	deleteButton->SetSoundClick(btnSoundClick);
 	deleteButton->SetTrigger(&trigA);
@@ -117,7 +117,7 @@ CategoryPrompt::CategoryPrompt(const std::string &title)
 	editButton->SetImage(editImg);
 	editButton->SetLabel(editTxt);
 	editButton->SetAlignment(thAlign("left - category prompt edit button align hor"), thAlign("top - category prompt edit button align ver"));
-	editButton->SetPosition(width/2-thInt("180 - category prompt edit button pos x")-addImg->GetWidth()/2, thInt("362 - category prompt edit button pos y"));
+	editButton->SetPosition(width/2-thInt("182 - category prompt edit button pos x")-addImg->GetWidth()/2, thInt("362 - category prompt edit button pos y"));
 	editButton->SetSoundOver(btnSoundOver);
 	editButton->SetSoundClick(btnSoundClick);
 	editButton->SetTrigger(&trigA);
