@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<app version="1">
+	<name>USB Loader GX</name>
+	<coder>USB Loader GX Team</coder>
+	<version>3.0.1281</version>
+	<release_date>20240913000308</release_date>
+	<!-- remove this line to enable arguments
+	<arguments>
+		<arg>--ios=249</arg>
+		<arg>--bootios=58</arg>
+		<arg>--usbport=0</arg>
+		<arg>--mountusb=1</arg>
+		<arg>--sdmode=0</arg>
+	</arguments>
+	remove this line to enable arguments -->
+	<ahb_access/>
+	<short_description>Game Loader</short_description>
+	<long_description>Play Wii disc games from USB storage devices.</long_description>
+</app>
