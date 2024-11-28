@@ -21,7 +21,7 @@ make clean && make
 
 ## Quick Installation
 
-1. Copy the compiled `boot.dol` to the `apps/usbloadergx` folder of your SD Card and replace any existing files
+1. Copy the compiled `boot.dol` to the `apps/usbloader_gx` folder of your SD Card and replace any existing files
 2. Install the [d2x Custom IOS Installer](https://wii.hacks.guide/assets/files/d2x-cios-installer.zip) by extracting the `apps` folder from the
 downloaded achive to the root of your SD Card
 3. Install the required custom IOS by setting everything to match the table below. `Slot 248 Base 38 IOS` is only compatible with Wii systems.

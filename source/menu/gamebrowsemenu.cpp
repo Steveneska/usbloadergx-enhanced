@@ -732,7 +732,7 @@ void GameBrowseMenu::ReloadBrowser()
 		searchBtn->SetPosition(Settings.widescreen ? thInt("640 - grid layout search btn pos x widescreen") : thInt("640 - grid layout search btn pos x"),
 								thInt("480 - grid layout search btn pos y"));
 		sortBtn->SetPosition(Settings.widescreen ? thInt("395 - grid layout abc/sort btn pos x widescreen") : thInt("395 - grid layout abc/sort btn pos x"),
-								thInt("15 - grid layout abc/sort btn pos y"));
+								thInt("315 - grid layout abc/sort btn pos y"));
 		loaderModeBtn->SetPosition(Settings.widescreen ? thInt("205 - grid layout loadermode btn pos x widescreen") : thInt("205 - grid layout loadermode btn pos x"),
 								thInt("315 - grid layout loadermode btn pos y"));
 		categBtn->SetPosition(Settings.widescreen ? thInt("160 - grid layout category btn pos x widescreen") : thInt("160 - grid layout category btn pos x"),

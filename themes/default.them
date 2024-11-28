@@ -256,7 +256,7 @@ msgstr ""
 msgid "480 - list layout search btn pos y"
 msgstr ""
 
-msgid "466 - list layout abc/sort btn pos x"
+msgid "465 - list layout abc/sort btn pos x"
 msgstr ""
 
 msgid "465 - list layout abc/sort btn pos x widescreen"
@@ -373,7 +373,7 @@ msgstr ""
 msgid "395 - grid layout abc/sort btn pos x widescreen"
 msgstr ""
 
-msgid "15 - grid layout abc/sort btn pos y"
+msgid "315 - grid layout abc/sort btn pos y"
 msgstr ""
 
 msgid "205 - grid layout loadermode btn pos x"
