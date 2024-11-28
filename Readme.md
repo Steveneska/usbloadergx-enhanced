@@ -19,29 +19,24 @@ and run the following:
 make clean && make
 ```
 
-## Installation
+## Quick Installation
 
-1. Extract the apps folder to the root of your SD Card and replace any existing files
-2. Install the [d2x v11 cIOS](https://github.com/wiidev/d2x-cios/releases)
-3. Optional: Download `wiitdb.xml` by selecting the update option within the Settings menu
-4. Optional: Install the forwarder channel for [Wii](https://github.com/wiidev/usbloadergx/raw/updates/USBLoaderGX_forwarder%5BUNEO%5D_Wii.wad)
-or [vWii](https://github.com/wiidev/usbloadergx/raw/updates/USBLoaderGX_forwarder%5BUNEO%5D_vWii.wad) and then set the return to setting to `UNEO`
+1. Copy the compiled `boot.dol` to the `apps/usbloadergx` folder of your SD Card and replace any existing files
+2. Install the [d2x Custom IOS Installer](https://wii.hacks.guide/assets/files/d2x-cios-installer.zip) by extracting the `apps` folder from the
+downloaded achive to the root of your SD Card
+3. Install the required custom IOS by setting everything to match the table below. `Slot 248 Base 38 IOS` is only compatible with Wii systems.
+4. Optional: Download the `wiitdb.xml` file by selecting the update option within the loader Settings menu
+5. Optional: Install a forwarder channel for [Wii](https://github.com/wiidev/usbloadergx/raw/updates/USBLoaderGX_forwarder%5BUNEO%5D_Wii.wad) or
+[vWii (Wii U)](https://github.com/wiidev/usbloadergx/raw/updates/USBLoaderGX_forwarder%5BUNEO%5D_vWii.wad) and then set the return to setting to `UNEO`
 
-## cIOS Guide
-The first configuration is the optimal one for the Wii, but the second configuration should improve compatibility.
+## cIOS Reference
 
-**For Wii**
+Patched IOS enable custom functionalities of loaders like USB Loader GX. Generally they will extend a Wii with little to no downsides.
+The configuration below should improves compatibility on Wii and vWii (Wii U).
 
-| File name                   |    Slot / Base    |
-| :-------------------------- | :---------------: |
-| sc55_rom1.bin               | Slot 249  base 56 |
-| sc55_rom2.bin               | Slot 250  base 57 |
-| sc55_waverom1.bin           | Slot 251  base 38 |
-
-**For vWii and Wii**
-````
-Slot 248 base 38 (Wii only)
-Slot 249 base 56
-Slot 250 base 57
-Slot 251 base 58
-````
+| File name          | IOS Slot | IOS Base |  IOS Revision  |    Compatibility     |
+| :----------------- | :------: | :------: | :------------: | :------------------: |
+| IOS38-64-v4123.wad | Slot 248 | Base  38 | Revision 65535 |       Wii Only       |
+| IOS56-64-v5661.wad | Slot 249 | Base  56 | Revision 65535 | Wii and vWii (Wii U) |
+| IOS57-64-v5918.wad | Slot 250 | Base  57 | Revision 65535 | Wii and vWii (Wii U) |
+| IOS58-64-v6175.wad | Slot 251 | Base  58 | Revision 65535 | Wii and vWii (Wii U) |
