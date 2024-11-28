@@ -39,12 +39,12 @@
 #include <asndlib.h>
 #include <wiiuse/wpad.h>
 #include "gui_imagedata.h"
-#include "FreeTypeGX.h"
+#include "freetypegx.h"
 #include "video.h"
 #include "input.h"
-#include "OptionList.hpp"
-#include "SoundOperations/gui_sound.h"
-#include "SoundOperations/gui_bgm.h"
+#include "optionlist.hpp"
+#include "soundoperations/gui_sound.h"
+#include "soundoperations/gui_bgm.h"
 #include "utils/timer.h"
 #include "sigslot.h"
 

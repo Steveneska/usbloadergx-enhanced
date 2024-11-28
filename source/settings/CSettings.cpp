@@ -26,13 +26,13 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "CSettings.h"
-#include "CGameSettings.h"
-#include "CGameStatistics.h"
-#include "Controls/DeviceHandler.hpp"
+#include "csettings.h"
+#include "cgamesettings.h"
+#include "cgamestatistics.h"
+#include "controls/devicehandler.hpp"
 #include "language/gettext.h"
-#include "themes/CTheme.h"
-#include "FileOperations/fileops.h"
+#include "themes/ctheme.h"
+#include "fileoperations/fileops.h"
 #include "utils/encrypt.h"
 #include "svnrev.h"
 

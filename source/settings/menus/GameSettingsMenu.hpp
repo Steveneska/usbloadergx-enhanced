@@ -24,9 +24,9 @@
 #ifndef GAMESETTINGSMENU_HPP_
 #define GAMESETTINGSMENU_HPP_
 
-#include "FlyingButtonsMenu.hpp"
-#include "settings/CGameSettings.h"
-#include "menu/GameBrowseMenu.hpp"
+#include "flyingbuttonsmenu.hpp"
+#include "settings/cgamesettings.h"
+#include "menu/gamebrowsemenu.hpp"
 #include "usbloader/disc.h"
 
 class GameSettingsMenu : public FlyingButtonsMenu

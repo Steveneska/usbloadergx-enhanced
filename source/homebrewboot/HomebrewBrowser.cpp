@@ -21,20 +21,20 @@
  * 3. This notice may not be removed or altered from any source
  * distribution.
  ***************************************************************************/
-#include "HomebrewBrowser.hpp"
-#include "themes/CTheme.h"
-#include "prompts/PromptWindows.h"
-#include "prompts/HomebrewPrompt.hpp"
+#include "homebrewbrowser.hpp"
+#include "themes/ctheme.h"
+#include "prompts/promptwindows.h"
+#include "prompts/homebrewprompt.hpp"
 #include "language/gettext.h"
 #include "network/networkops.h"
 #include "utils/minizip/miniunz.h"
-#include "prompts/TitleBrowser.h"
-#include "homebrewboot/BootHomebrew.h"
-#include "FileOperations/fileops.h"
-#include "prompts/ProgressWindow.h"
+#include "prompts/titlebrowser.h"
+#include "homebrewboot/boothomebrew.h"
+#include "fileoperations/fileops.h"
+#include "prompts/progresswindow.h"
 #include "utils/tools.h"
 #include "wstring.hpp"
-#include "HomebrewXML.h"
+#include "homebrewxml.h"
 
 extern u32 infilesize;
 extern u32 uncfilesize;

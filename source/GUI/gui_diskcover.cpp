@@ -1,5 +1,5 @@
 #include "gui_diskcover.h"
-#include "settings/CSettings.h"
+#include "settings/csettings.h"
 
 GuiDiskCover::GuiDiskCover()
 {

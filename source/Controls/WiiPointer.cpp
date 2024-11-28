@@ -14,9 +14,9 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  ****************************************************************************/
-#include "WiiPointer.h"
-#include "settings/CSettings.h"
-#include "themes/Resources.h"
+#include "wiipointer.h"
+#include "settings/csettings.h"
+#include "themes/resources.h"
 #include "utils/tools.h"
 #include "video.h"
 #include "input.h"

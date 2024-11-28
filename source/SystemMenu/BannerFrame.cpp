@@ -14,10 +14,10 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  ****************************************************************************/
-#include "BannerFrame.h"
-#include "SystemMenu/SystemMenuResources.h"
-#include "utils/U8Archive.h"
-#include "utils/StringTools.h"
+#include "bannerframe.h"
+#include "systemmenu/systemmenuresources.h"
+#include "utils/u8archive.h"
+#include "utils/stringtools.h"
 
 BannerFrame::~BannerFrame()
 {

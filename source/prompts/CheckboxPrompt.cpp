@@ -22,8 +22,8 @@
  * distribution.
  ***************************************************************************/
 #include <unistd.h>
-#include "CheckboxPrompt.hpp"
-#include "themes/CTheme.h"
+#include "checkboxprompt.hpp"
+#include "themes/ctheme.h"
 #include "menu/menus.h"
 #include "language/gettext.h"
 

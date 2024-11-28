@@ -9,7 +9,7 @@
  ***************************************************************************/
 
 #include "gui.h"
-#include "settings/CSettings.h"
+#include "settings/csettings.h"
 
 static int scrollison = 0;
 

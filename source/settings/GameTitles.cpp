@@ -2,13 +2,13 @@
 #include <unistd.h>
 #include <algorithm>
 
-#include "GameTitles.h"
-#include "CSettings.h"
-#include "usbloader/GameList.h"
-#include "Channels/channels.h"
-#include "xml/GameTDB.hpp"
+#include "gametitles.h"
+#include "csettings.h"
+#include "usbloader/gamelist.h"
+#include "channels/channels.h"
+#include "xml/gametdb.hpp"
 #include "svnrev.h"
-#include "FileOperations/fileops.h"
+#include "fileoperations/fileops.h"
 
 #define VALID_CACHE_REVISION 1280
 

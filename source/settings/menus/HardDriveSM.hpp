@@ -24,7 +24,7 @@
 #ifndef HARDDRIVE_MENU_HPP_
 #define HARDDRIVE_MENU_HPP_
 
-#include "SettingsMenu.hpp"
+#include "settingsmenu.hpp"
 
 class HardDriveSM : public SettingsMenu
 {

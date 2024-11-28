@@ -22,16 +22,16 @@
  * distribution.
  ***************************************************************************/
 #include <unistd.h>
-#include "WDMMenu.hpp"
-#include "FileOperations/fileops.h"
+#include "wdmmenu.hpp"
+#include "fileoperations/fileops.h"
 #include "menu/menus.h"
-#include "themes/CTheme.h"
+#include "themes/ctheme.h"
 #include "language/gettext.h"
 #include "usbloader/wbfs.h"
 #include "libs/libwbfs/libwbfs.h"
 #include "libs/libwbfs/wiidisc.h"
 #include "usbloader/fstfile.h"
-#include "settings/GameTitles.h"
+#include "settings/gametitles.h"
 #include "gecko.h"
 
 u32 WDMMenu::AlternateDolOffset = 0;

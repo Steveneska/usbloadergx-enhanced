@@ -24,7 +24,7 @@
 #ifndef GUICHECKSIGN_HPP_
 #define GUICHECKSIGN_HPP_
 
-#include "GUI/gui.h"
+#include "gui/gui.h"
 
 class GuiChecksign : public GuiElement
 {

@@ -8,21 +8,19 @@ on:
       - '**.md'
       - '.devcontainer/**'
       - '.github/ISSUE_TEMPLATE/**'
-      - '.github/FUNDING.yml'
       - '.github/**/*.md'
       - '.vscode/**'
-      - 'HBC/**'
-      - 'Languages/**'
+      - 'hbc/**'
+      - 'languages/**'
   pull_request:
     paths-ignore:
       - '**.md'
       - '.devcontainer/**'
       - '.github/ISSUE_TEMPLATE/**'
-      - '.github/FUNDING.yml'
       - '.github/**/*.md'
       - '.vscode/**'
-      - 'HBC/**'
-      - 'Languages/**'
+      - 'hbc/**'
+      - 'languages/**'
 
 jobs:
   download-build-tools:
@@ -91,8 +89,8 @@ jobs:
         run: |
           mkdir -p upload/apps/usbloader_gx
           cp boot.dol upload/apps/usbloader_gx
-          cp HBC/icon.png upload/apps/usbloader_gx
-          cp HBC/meta.xml upload/apps/usbloader_gx
+          cp hbc/icon.png upload/apps/usbloader_gx
+          cp hbc/meta.xml upload/apps/usbloader_gx
           echo "sha=$(git rev-parse --short=7 HEAD)" >> $GITHUB_ENV
 
       - name: Upload binary

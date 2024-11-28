@@ -12,7 +12,7 @@
 #include "gecko.h"
 #include "patches/gamepatches.h"
 #include "patches/wip.h"
-#include "settings/SettingsEnums.h"
+#include "settings/settingsenums.h"
 
 /* Apploader function pointers */
 typedef int (*app_main)(void **dst, int *size, int *offset);

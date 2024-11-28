@@ -23,17 +23,17 @@
  ***************************************************************************/
 #include <unistd.h>
 #include <gccore.h>
-#include "settings/CSettings.h"
-#include "settings/CGameStatistics.h"
-#include "themes/CTheme.h"
-#include "prompts/PromptWindows.h"
-#include "prompts/DiscBrowser.h"
+#include "settings/csettings.h"
+#include "settings/cgamestatistics.h"
+#include "themes/ctheme.h"
+#include "prompts/promptwindows.h"
+#include "prompts/discbrowser.h"
 #include "prompts/filebrowser.h"
-#include "usbloader/AlternateDOLOffsets.h"
+#include "usbloader/alternatedoloffsets.h"
 #include "language/gettext.h"
 #include "wad/nandtitle.h"
-#include "system/IosLoader.h"
-#include "GameLoadSM.hpp"
+#include "system/iosloader.h"
+#include "gameloadsm.hpp"
 
 static const char * OnOffText[] =
 {

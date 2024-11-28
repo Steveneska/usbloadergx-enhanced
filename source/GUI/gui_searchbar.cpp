@@ -4,10 +4,10 @@
 
 #include "../wpad.h"
 #include "../main.h"
-#include "../settings/CSettings.h"
-#include "../settings/GameTitles.h"
-#include "../themes/CTheme.h"
-#include "../usbloader/GameList.h"
+#include "../settings/csettings.h"
+#include "../settings/gametitles.h"
+#include "../themes/ctheme.h"
+#include "../usbloader/gamelist.h"
 
 extern GuiWindow * mainWindow;
 

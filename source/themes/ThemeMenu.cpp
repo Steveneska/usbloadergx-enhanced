@@ -24,17 +24,17 @@
 #include <string.h>
 #include <unistd.h>
 
-#include "ThemeMenu.h"
+#include "thememenu.h"
 #include "language/gettext.h"
-#include "prompts/PromptWindows.h"
-#include "prompts/ProgressWindow.h"
-#include "FileOperations/DirList.h"
+#include "prompts/promptwindows.h"
+#include "prompts/progresswindow.h"
+#include "fileoperations/dirlist.h"
 #include "network/networkops.h"
-#include "themes/CTheme.h"
-#include "FileOperations/fileops.h"
+#include "themes/ctheme.h"
+#include "fileoperations/fileops.h"
 #include "sys.h"
 #include "menu/menus.h"
-#include "utils/ShowError.h"
+#include "utils/showerror.h"
 #include "utils/tools.h"
 #include "gecko.h"
 

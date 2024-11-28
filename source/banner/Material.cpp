@@ -24,8 +24,8 @@ distribution.
 
 #include <algorithm>
 #include <math.h>
-#include "Layout.h"
-#include "Material.h"
+#include "layout.h"
+#include "material.h"
 
 Material::Material()
 	: flags(0)

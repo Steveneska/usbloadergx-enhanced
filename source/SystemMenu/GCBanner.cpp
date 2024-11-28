@@ -14,8 +14,8 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  ****************************************************************************/
-#include "SystemMenu/SystemMenuResources.h"
-#include "GCBanner.h"
+#include "systemmenu/systemmenuresources.h"
+#include "gcbanner.h"
 
 bool GCBanner::Load( const U8Archive &GCBannArc )
 {

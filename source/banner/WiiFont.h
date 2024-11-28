@@ -28,7 +28,7 @@ distribution.
 #include <list>
 #include <vector>
 
-#include "Pane.h"
+#include "pane.h"
 
 class WiiFont
 {

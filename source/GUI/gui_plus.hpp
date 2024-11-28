@@ -24,7 +24,7 @@
 #ifndef GUIPLUS_HPP_
 #define GUIPLUS_HPP_
 
-#include "GUI/gui.h"
+#include "gui/gui.h"
 
 class GuiPlus : public GuiElement
 {

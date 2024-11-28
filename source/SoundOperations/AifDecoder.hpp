@@ -26,8 +26,8 @@
 #ifndef AIFDECODER_HPP_
 #define AIFDECODER_HPP_
 
-#include "SoundDecoder.hpp"
-#include "WavDecoder.hpp"
+#include "sounddecoder.hpp"
+#include "wavdecoder.hpp"
 
 class AifDecoder : public SoundDecoder
 {

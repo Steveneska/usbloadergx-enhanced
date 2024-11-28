@@ -24,7 +24,7 @@
 #ifndef CATEGORY_PROMPT_HPP_
 #define CATEGORY_PROMPT_HPP_
 
-#include "GUI/gui_checkboxbrowser.hpp"
+#include "gui/gui_checkboxbrowser.hpp"
 
 class CategoryPrompt : public GuiWindow, public sigslot::has_slots<>
 {

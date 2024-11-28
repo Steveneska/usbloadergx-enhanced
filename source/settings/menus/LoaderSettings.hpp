@@ -24,7 +24,7 @@
 #ifndef LOADERSETTINGS_HPP_
 #define LOADERSETTINGS_HPP_
 
-#include "SettingsMenu.hpp"
+#include "settingsmenu.hpp"
 
 class LoaderSettings : public SettingsMenu
 {

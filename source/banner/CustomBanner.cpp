@@ -15,9 +15,9 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  ****************************************************************************/
 #include <malloc.h>
-#include "CustomBanner.h"
-#include "ImageOperations/TextureConverter.h"
-#include "utils/StringTools.h"
+#include "custombanner.h"
+#include "imageoperations/textureconverter.h"
+#include "utils/stringtools.h"
 
 
 CustomBanner::CustomBanner()

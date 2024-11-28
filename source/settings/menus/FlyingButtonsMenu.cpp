@@ -24,10 +24,10 @@
 #include <string.h>
 #include <unistd.h>
 
-#include "FlyingButtonsMenu.hpp"
-#include "utils/StringTools.h"
+#include "flyingbuttonsmenu.hpp"
+#include "utils/stringtools.h"
 #include "language/gettext.h"
-#include "themes/CTheme.h"
+#include "themes/ctheme.h"
 #include "menu/menus.h"
 #include "sys.h"
 

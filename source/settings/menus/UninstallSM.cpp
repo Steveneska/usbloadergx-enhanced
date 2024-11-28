@@ -23,18 +23,18 @@
  ***************************************************************************/
 #include <unistd.h>
 
-#include "UninstallSM.hpp"
-#include "FileOperations/fileops.h"
-#include "GameCube/GCGames.h"
-#include "Channels/channels.h"
-#include "settings/CSettings.h"
-#include "settings/CGameSettings.h"
-#include "settings/CGameStatistics.h"
-#include "settings/GameTitles.h"
-#include "prompts/PromptWindows.h"
+#include "uninstallsm.hpp"
+#include "fileoperations/fileops.h"
+#include "gamecube/gcgames.h"
+#include "channels/channels.h"
+#include "settings/csettings.h"
+#include "settings/cgamesettings.h"
+#include "settings/cgamestatistics.h"
+#include "settings/gametitles.h"
+#include "prompts/promptwindows.h"
 #include "language/gettext.h"
 #include "usbloader/wbfs.h"
-#include "usbloader/GameList.h"
+#include "usbloader/gamelist.h"
 #include "wstring.hpp"
 #include "cache/cache.hpp"
 

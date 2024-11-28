@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <string.h>
 #include <vector>
-#include "FileOperations/fileops.h"
-#include "settings/CSettings.h"
-#include "settings/SettingsEnums.h"
-#include "usbloader/GameList.h"
+#include "fileoperations/fileops.h"
+#include "settings/csettings.h"
+#include "settings/settingsenums.h"
+#include "usbloader/gamelist.h"
 #include "wstring.hpp"
 #include "gecko.h"
 

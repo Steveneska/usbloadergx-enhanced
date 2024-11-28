@@ -1,10 +1,10 @@
 #ifndef GAMEWINDOW_HPP_
 #define GAMEWINDOW_HPP_
 
-#include "GUI/gui.h"
-#include "GUI/gui_diskcover.h"
-#include "banner/BannerAsync.h"
-#include "menu/GameBrowseMenu.hpp"
+#include "gui/gui.h"
+#include "gui/gui_diskcover.h"
+#include "banner/bannerasync.h"
+#include "menu/gamebrowsemenu.hpp"
 #include "usbloader/disc.h"
 
 #define FAVORITE_STARS  5

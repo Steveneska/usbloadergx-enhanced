@@ -21,7 +21,7 @@
 #include <vector>
 #include <gccore.h>
 #include "usbloader/disc.h"
-#include "settings/CSettings.h"
+#include "settings/csettings.h"
 
 int nintendontBuildDate(const char *NIN_loader_path, char* NINBuildDate);
 int nintendontVersion(const char *NIN_loader_path, char* NINVersion, int len);

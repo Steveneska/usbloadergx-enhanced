@@ -26,10 +26,10 @@ distribution.
 
 #include <malloc.h>
 #include <stdio.h>
-#include "Channels/channels.h"
-#include "GameCube/GCGames.h"
+#include "channels/channels.h"
+#include "gamecube/gcgames.h"
 #include "libs/libwbfs/gcdisc.h"
-#include "FileOperations/fileops.h"
+#include "fileoperations/fileops.h"
 #include "language/gettext.h"
 #include "usbloader/disc.h"
 #include "usbloader/wbfs.h"
@@ -37,10 +37,10 @@ distribution.
 #include "usbloader/wbfs/wbfs_rw.h"
 #include "utils/sjis.h"
 #include "utils/uncompress.h"
-#include "themes/CTheme.h"
-#include "settings/GameTitles.h"
+#include "themes/ctheme.h"
+#include "settings/gametitles.h"
 #include "wstring.hpp"
-#include "OpeningBNR.hpp"
+#include "openingbnr.hpp"
 
 BNRInstance *BNRInstance::instance = NULL;
 

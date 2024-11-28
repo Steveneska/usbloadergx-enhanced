@@ -21,11 +21,11 @@
  * 3. This notice may not be removed or altered from any source
  * distribution.
  ***************************************************************************/
-#include "CategorySelectPrompt.hpp"
-#include "settings/CGameCategories.hpp"
-#include "settings/CSettings.h"
+#include "categoryselectprompt.hpp"
+#include "settings/cgamecategories.hpp"
+#include "settings/csettings.h"
 #include "language/gettext.h"
-#include "utils/StringTools.h"
+#include "utils/stringtools.h"
 #include "gecko.h"
 
 CategorySelectPrompt::CategorySelectPrompt(struct discHdr * header)

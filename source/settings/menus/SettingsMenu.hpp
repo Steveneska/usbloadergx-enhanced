@@ -24,8 +24,8 @@
 #ifndef SETTINGS_MENU_HPP_
 #define SETTINGS_MENU_HPP_
 
-#include "GUI/gui.h"
-#include "GUI/gui_optionbrowser.h"
+#include "gui/gui.h"
+#include "gui/gui_optionbrowser.h"
 #include "menu.h"
 
 class SettingsMenu : public GuiWindow

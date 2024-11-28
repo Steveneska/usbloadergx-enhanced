@@ -3,7 +3,7 @@
 #include <unistd.h>
 #include <time.h>
 
-#include "Controls/DeviceHandler.hpp"
+#include "controls/devicehandler.hpp"
 #include "usbloader/usbstorage2.h"
 #include "wbfs.h"
 #include "usbloader/wbfs/wbfs_base.h"
@@ -11,9 +11,9 @@
 #include "usbloader/wbfs/wbfs_fat.h"
 #include "usbloader/wbfs/wbfs_ntfs.h"
 #include "usbloader/wbfs/wbfs_ext.h"
-#include "settings/CSettings.h"
+#include "settings/csettings.h"
 
-#include "usbloader/GameList.h"
+#include "usbloader/gamelist.h"
 #include "menu/menus.h"
 #include "gecko.h"
 

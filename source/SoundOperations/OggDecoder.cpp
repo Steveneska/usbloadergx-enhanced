@@ -25,7 +25,7 @@
  ***************************************************************************/
 #include <unistd.h>
 #include <malloc.h>
-#include "OggDecoder.hpp"
+#include "oggdecoder.hpp"
 
 extern "C"  int ogg_read(void * punt, int bytes, int blocks, int *f)
 {

@@ -22,8 +22,8 @@ misrepresented as being the original software.
 distribution.
 */
 
-#include "Pane.h"
-#include "Layout.h"
+#include "pane.h"
+#include "layout.h"
 
 void Pane::Load(Pane::Header *pan)
 {

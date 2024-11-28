@@ -17,7 +17,7 @@
 #ifndef GCDELETEMENU_H
 #define GCDELETEMENU_H
 
-#include "CheckboxBrowserMenu.h"
+#include "checkboxbrowsermenu.h"
 
 class GCDeleteMenu : public CheckboxBrowserMenu
 {

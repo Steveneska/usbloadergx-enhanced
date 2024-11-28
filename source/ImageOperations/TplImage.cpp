@@ -28,9 +28,9 @@
 #include <gccore.h>
 #include <malloc.h>
 #include <string.h>
-#include "FileOperations/fileops.h"
-#include "TextureConverter.h"
-#include "TplImage.h"
+#include "fileoperations/fileops.h"
+#include "textureconverter.h"
+#include "tplimage.h"
 
 TplImage::TplImage(const char * filepath)
 {

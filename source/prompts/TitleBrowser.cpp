@@ -9,22 +9,22 @@
 #include <zlib.h>
 
 #include "language/gettext.h"
-#include "GUI/gui.h"
-#include "GUI/gui_optionbrowser.h"
-#include "prompts/PromptWindows.h"
-#include "prompts/ProgressWindow.h"
+#include "gui/gui.h"
+#include "gui/gui_optionbrowser.h"
+#include "prompts/promptwindows.h"
+#include "prompts/progresswindow.h"
 #include "network/networkops.h"
-#include "FileOperations/fileops.h"
-#include "themes/CTheme.h"
+#include "fileoperations/fileops.h"
+#include "themes/ctheme.h"
 #include "sys.h"
 #include "menu.h"
 #include "audio.h"
-#include "xml/GameTDB.hpp"
+#include "xml/gametdb.hpp"
 #include "wad/nandtitle.h"
 #include "gecko.h"
 
-#include "Controls/DeviceHandler.hpp"
-#include "usbloader/NandEmu.h"
+#include "controls/devicehandler.hpp"
+#include "usbloader/nandemu.h"
 extern u8 shutdown;
 extern u8 reset;
 

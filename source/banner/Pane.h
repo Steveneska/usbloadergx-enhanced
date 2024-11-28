@@ -28,7 +28,7 @@ distribution.
 #include <vector>
 #include <gccore.h>
 
-#include "Animator.h"
+#include "animator.h"
 
 struct BannerResources;
 

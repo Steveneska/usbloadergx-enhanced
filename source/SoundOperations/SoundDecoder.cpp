@@ -29,7 +29,7 @@
 #include <malloc.h>
 #include <string.h>
 #include <unistd.h>
-#include "SoundDecoder.hpp"
+#include "sounddecoder.hpp"
 #include "main.h"
 
 SoundDecoder::SoundDecoder()

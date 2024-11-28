@@ -24,7 +24,7 @@
 #ifndef CATEGORYSELECT_PROMPT_HPP_
 #define CATEGORYSELECT_PROMPT_HPP_
 
-#include "CategoryPrompt.hpp"
+#include "categoryprompt.hpp"
 #include "usbloader/disc.h"
 
 class CategorySelectPrompt : public CategoryPrompt

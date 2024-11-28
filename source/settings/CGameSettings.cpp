@@ -26,9 +26,9 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "CSettings.h"
-#include "CGameSettings.h"
-#include "FileOperations/fileops.h"
+#include "csettings.h"
+#include "cgamesettings.h"
+#include "fileoperations/fileops.h"
 #include "svnrev.h"
 
 #define VALID_CONFIG_REV	1031

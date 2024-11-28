@@ -22,12 +22,12 @@
  * distribution.
  ***************************************************************************/
 #include <unistd.h>
-#include "CategoryPrompt.hpp"
-#include "settings/CGameCategories.hpp"
-#include "settings/CSettings.h"
+#include "categoryprompt.hpp"
+#include "settings/cgamecategories.hpp"
+#include "settings/csettings.h"
 #include "language/gettext.h"
 #include "themes/gettheme.h"
-#include "themes/Resources.h"
+#include "themes/resources.h"
 #include "menu/menus.h"
 
 CategoryPrompt::CategoryPrompt(const std::string &title)

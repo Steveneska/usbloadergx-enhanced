@@ -30,9 +30,9 @@
 #include <ogc/system.h>
 #include <sdcard/wiisd_io.h>
 #include <sdcard/gcsd.h>
-#include "DeviceHandler.hpp"
+#include "devicehandler.hpp"
 #include "usbloader/wbfs.h"
-#include "system/IosLoader.h"
+#include "system/iosloader.h"
 
 DeviceHandler * DeviceHandler::instance = NULL;
 

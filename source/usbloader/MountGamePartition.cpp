@@ -1,17 +1,17 @@
 #include <dirent.h>
 #include <unistd.h>
 
-#include "FileOperations/fileops.h"
-#include "Controls/DeviceHandler.hpp"
+#include "fileoperations/fileops.h"
+#include "controls/devicehandler.hpp"
 #include "wad/nandtitle.h"
-#include "system/IosLoader.h"
+#include "system/iosloader.h"
 #include "menu/menus.h"
 #include "wpad.h"
 #include "usbloader/wbfs.h"
-#include "usbloader/GameList.h"
-#include "settings/GameTitles.h"
-#include "xml/GameTDB.hpp"
-#include "utils/ShowError.h"
+#include "usbloader/gamelist.h"
+#include "settings/gametitles.h"
+#include "xml/gametdb.hpp"
+#include "utils/showerror.h"
 #include "cache/cache.hpp"
 
 static int FindGamePartition()

@@ -24,7 +24,7 @@
 #ifndef CATEGORYSWITCH_PROMPT_HPP_
 #define CATEGORYSWITCH_PROMPT_HPP_
 
-#include "CategoryPrompt.hpp"
+#include "categoryprompt.hpp"
 
 class CategorySwitchPrompt : public CategoryPrompt
 {

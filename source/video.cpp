@@ -15,10 +15,10 @@
 #include <unistd.h>
 #include <wiiuse/wpad.h>
 
-#include "GUI/gui.h"
-#include "ImageOperations/TextureConverter.h"
-#include "ImageOperations/ImageWrite.h"
-#include "settings/CSettings.h"
+#include "gui/gui.h"
+#include "imageoperations/textureconverter.h"
+#include "imageoperations/imagewrite.h"
+#include "settings/csettings.h"
 #include "input.h"
 #include "sys.h"
 #include "gecko.h"

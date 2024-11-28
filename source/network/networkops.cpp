@@ -12,7 +12,7 @@
 #include "https.h"
 #include "update.h"
 #include "gecko.h"
-#include "settings/ProxySettings.h"
+#include "settings/proxysettings.h"
 
 #define PORT 4299
 

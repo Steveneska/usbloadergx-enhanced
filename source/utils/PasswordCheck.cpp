@@ -1,4 +1,4 @@
-#include "prompts/PromptWindows.h"
+#include "prompts/promptwindows.h"
 
 int PasswordCheck(const char * password)
 {

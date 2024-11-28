@@ -1,7 +1,7 @@
-#include "GUI/gui.h"
-#include "themes/CTheme.h"
-#include "usbloader/GameList.h"
-#include "settings/GameTitles.h"
+#include "gui/gui.h"
+#include "themes/ctheme.h"
+#include "usbloader/gamelist.h"
+#include "settings/gametitles.h"
 #include "menu/menus.h"
 
 void rockout(struct discHdr *header)

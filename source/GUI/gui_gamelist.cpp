@@ -11,12 +11,12 @@
 
 #include <unistd.h>
 #include "gui_gamelist.h"
-#include "settings/CSettings.h"
+#include "settings/csettings.h"
 #include "main.h"
 #include "settings/newtitles.h"
-#include "settings/GameTitles.h"
-#include "usbloader/GameList.h"
-#include "themes/CTheme.h"
+#include "settings/gametitles.h"
+#include "usbloader/gamelist.h"
+#include "themes/ctheme.h"
 #include "utils/tools.h"
 #include "menu.h"
 

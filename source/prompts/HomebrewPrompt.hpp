@@ -24,9 +24,9 @@
 #ifndef HOMEBREWPROMPT_HPP_
 #define HOMEBREWPROMPT_HPP_
 
-#include "GUI/gui_scrollbar.hpp"
-#include "GUI/Text.hpp"
-#include "PromptWindow.hpp"
+#include "gui/gui_scrollbar.hpp"
+#include "gui/text.hpp"
+#include "promptwindow.hpp"
 
 class HomebrewPrompt : public PromptWindow, public sigslot::has_slots<>
 {

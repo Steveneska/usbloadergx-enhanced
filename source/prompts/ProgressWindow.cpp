@@ -14,10 +14,10 @@
 #include "menu/menus.h"
 #include "sys.h"
 #include "language/gettext.h"
-#include "GUI/gui.h"
-#include "prompts/ProgressWindow.h"
+#include "gui/gui.h"
+#include "prompts/progresswindow.h"
 #include "usbloader/wbfs.h"
-#include "themes/CTheme.h"
+#include "themes/ctheme.h"
 #include "utils/timer.h"
 #include "utils/tools.h"
 

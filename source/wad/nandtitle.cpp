@@ -1,8 +1,8 @@
 #include <ogc/isfs.h>
 #include <stdlib.h>
 #include "nandtitle.h"
-#include "FileOperations/fileops.h"
-#include "prompts/ProgressWindow.h"
+#include "fileoperations/fileops.h"
+#include "prompts/progresswindow.h"
 #include "language/gettext.h"
 #include "usbloader/playlog.h"
 #include "utils/tools.h"

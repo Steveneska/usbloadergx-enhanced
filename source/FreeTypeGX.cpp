@@ -20,7 +20,7 @@
  * along with FreeTypeGX.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include "FreeTypeGX.h"
+#include "freetypegx.h"
 #include "memory/mem2.h"
 
 using namespace std;

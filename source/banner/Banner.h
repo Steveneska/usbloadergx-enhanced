@@ -25,7 +25,7 @@ distribution.
 #ifndef _BANNER_H_
 #define _BANNER_H_
 
-#include "Layout.h"
+#include "layout.h"
 
 class Banner
 {

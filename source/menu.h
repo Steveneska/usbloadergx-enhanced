@@ -10,9 +10,9 @@
 #define _MENU_H_
 
 #include <ogcsys.h>
-#include "GUI/gui.h"
-#include "Controls/WiiPointer.h"
-#include "settings/CSettings.h"
+#include "gui/gui.h"
+#include "controls/wiipointer.h"
+#include "settings/csettings.h"
 #include "main.h"
 
 void InitGUIThreads(void);

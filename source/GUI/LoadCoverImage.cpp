@@ -1,8 +1,8 @@
-#include "GUI/gui.h"
+#include "gui/gui.h"
 #include "usbloader/disc.h"
-#include "FileOperations/fileops.h"
-#include "settings/CSettings.h"
-#include "themes/CTheme.h"
+#include "fileoperations/fileops.h"
+#include "settings/csettings.h"
+#include "themes/ctheme.h"
 
 /****************************************************************************
  * LoadCoverImage

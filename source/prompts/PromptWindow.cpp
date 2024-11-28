@@ -22,10 +22,10 @@
  * distribution.
  ***************************************************************************/
 #include <unistd.h>
-#include "PromptWindow.hpp"
+#include "promptwindow.hpp"
 #include "menu/menus.h"
-#include "settings/CSettings.h"
-#include "themes/CTheme.h"
+#include "settings/csettings.h"
+#include "themes/ctheme.h"
 
 PromptWindow::PromptWindow(const char *title, const char *msg)
 	: GuiWindow(472, 320)

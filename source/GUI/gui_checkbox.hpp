@@ -24,11 +24,11 @@
 #ifndef GUICHECKBOX_HPP_
 #define GUICHECKBOX_HPP_
 
-#include "GUI/gui.h"
-#include "GUI/gui_box.hpp"
-#include "GUI/gui_cross.hpp"
-#include "GUI/gui_checksign.hpp"
-#include "GUI/gui_plus.hpp"
+#include "gui/gui.h"
+#include "gui/gui_box.hpp"
+#include "gui/gui_cross.hpp"
+#include "gui/gui_checksign.hpp"
+#include "gui/gui_plus.hpp"
 
 class GuiCheckbox : public GuiButton
 {

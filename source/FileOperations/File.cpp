@@ -1,5 +1,5 @@
 #include <cstring>
-#include "File.hpp"
+#include "file.hpp"
 
 CFile::CFile()
 {

@@ -23,10 +23,10 @@
  ***************************************************************************/
 #include <gctypes.h>
 #include <stdio.h>
-#include "settings/CSettings.h"
+#include "settings/csettings.h"
 #include "usbloader/disc.h"
 #include "usbloader/wbfs.h"
-#include "FileOperations/fileops.h"
+#include "fileoperations/fileops.h"
 #include "gecko.h"
 
 void CreateTitleTMD(const char *path, const struct discHdr *hdr)

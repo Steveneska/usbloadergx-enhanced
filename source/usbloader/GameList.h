@@ -2,7 +2,7 @@
 #define GAME_LIST_H_
 
 #include <vector>
-#include "Controls/DeviceHandler.hpp"
+#include "controls/devicehandler.hpp"
 #include "wstring.hpp"
 #include "usbloader/disc.h"
 

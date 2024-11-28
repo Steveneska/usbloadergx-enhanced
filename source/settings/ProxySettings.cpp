@@ -2,8 +2,8 @@
 #include <ogc/isfs.h>
 #include <string.h>
 
-#include "ProxySettings.h"
-#include "settings/CSettings.h"
+#include "proxysettings.h"
+#include "settings/csettings.h"
 
 #define ALIGN32(x) (((x) + 31) & ~31)
 

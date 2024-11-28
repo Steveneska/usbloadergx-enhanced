@@ -1,10 +1,10 @@
 #ifndef WDMMENU_HPP_
 #define WDMMENU_HPP_
 
-#include "GUI/gui.h"
-#include "GUI/gui_optionbrowser.h"
+#include "gui/gui.h"
+#include "gui/gui_optionbrowser.h"
 #include "usbloader/disc.h"
-#include "usbloader/WDMFile.hpp"
+#include "usbloader/wdmfile.hpp"
 
 class WDMMenu : public GuiWindow
 {

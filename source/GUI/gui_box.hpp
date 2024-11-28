@@ -24,7 +24,7 @@
 #ifndef GUIBOX_HPP_
 #define GUIBOX_HPP_
 
-#include "GUI/gui.h"
+#include "gui/gui.h"
 
 class GuiBox : public GuiElement
 {

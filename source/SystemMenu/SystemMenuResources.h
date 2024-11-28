@@ -18,9 +18,9 @@
 #define SYSTEMMENURESOURCES_H
 
 #include <gctypes.h>
-#include "BannerFrame.h"
-#include "StaticFrame.h"
-#include "utils/U8Archive.h"
+#include "bannerframe.h"
+#include "staticframe.h"
+#include "utils/u8archive.h"
 
 class SystemMenuResources
 {

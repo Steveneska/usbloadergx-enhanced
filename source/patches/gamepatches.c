@@ -10,7 +10,7 @@
 #include "gamepatches.h"
 #include "memory/memory.h"
 #include "memory/mem2.h"
-#include "settings/SettingsEnums.h"
+#include "settings/settingsenums.h"
 #include "svnrev.h"
 #include "kirbypatch.h"
 

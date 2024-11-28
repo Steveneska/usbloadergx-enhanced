@@ -1,9 +1,9 @@
 #ifndef _MENUS_H
 #define _MENUS_H
 
-#include "GUI/gui.h"
+#include "gui/gui.h"
 #include "language/gettext.h"
-#include "prompts/PromptWindows.h"
+#include "prompts/promptwindows.h"
 #include "menu.h"
 #include "gecko.h"
 #include "sys.h"

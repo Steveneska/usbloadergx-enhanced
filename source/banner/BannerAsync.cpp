@@ -24,9 +24,9 @@ distribution.
 #include <stdio.h>
 #include <malloc.h>
 #include <gccore.h>
-#include "settings/CSettings.h"
-#include "OpeningBNR.hpp"
-#include "BannerAsync.h"
+#include "settings/csettings.h"
+#include "openingbnr.hpp"
+#include "bannerasync.h"
 
 std::vector<BannerAsync *> BannerAsync::List;
 std::queue<BannerAsync *> BannerAsync::DeleteList;

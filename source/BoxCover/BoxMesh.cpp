@@ -1,5 +1,5 @@
 #include <gccore.h>
-#include "BoxMesh.hpp"
+#include "boxmesh.hpp"
 
 // Quick and dirty hardcoded DVD box mesh
 

@@ -22,7 +22,7 @@
 #include "ash.h"
 #include "lz77.h"
 #include "gecko.h"
-#include "U8Archive.h"
+#include "u8archive.h"
 #include "uncompress.h"
 
 #define RU(N, S) ((((N) + (S) - 1) / (S)) * (S))

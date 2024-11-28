@@ -28,7 +28,7 @@
 
 #include <vector>
 #include <gccore.h>
-#include "SoundDecoder.hpp"
+#include "sounddecoder.hpp"
 
 #define MAX_DECODERS	16
 

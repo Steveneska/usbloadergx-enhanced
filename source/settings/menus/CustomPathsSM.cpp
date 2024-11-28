@@ -22,23 +22,23 @@
  * distribution.
  ***************************************************************************/
 #include <unistd.h>
-#include "Channels/channels.h"
-#include "Controls/DeviceHandler.hpp"
-#include "GameCube/GCGames.h"
-#include "CustomPathsSM.hpp"
-#include "settings/SettingsPrompts.h"
-#include "settings/CSettings.h"
-#include "settings/SettingsEnums.h"
-#include "settings/GameTitles.h"
-#include "prompts/PromptWindows.h"
-#include "prompts/ProgressWindow.h"
+#include "channels/channels.h"
+#include "controls/devicehandler.hpp"
+#include "gamecube/gcgames.h"
+#include "custompathssm.hpp"
+#include "settings/settingsprompts.h"
+#include "settings/csettings.h"
+#include "settings/settingsenums.h"
+#include "settings/gametitles.h"
+#include "prompts/promptwindows.h"
+#include "prompts/progresswindow.h"
 #include "language/gettext.h"
 #include "prompts/filebrowser.h"
-#include "themes/CTheme.h"
-#include "FileOperations/fileops.h"
+#include "themes/ctheme.h"
+#include "fileoperations/fileops.h"
 #include "gecko.h"
 #include "cache/cache.hpp"
-#include "usbloader/GameList.h"
+#include "usbloader/gamelist.h"
 
 CustomPathsSM::CustomPathsSM()
 	: SettingsMenu(tr("Custom Paths"), &GuiOptions, MENU_NONE)

@@ -8,17 +8,17 @@
 #include <string.h>
 #include <sys/dir.h>
 
-#include "UpdateLanguage.h"
+#include "updatelanguage.h"
 #include "gettext.h"
-#include "FileOperations/fileops.h"
-#include "FileOperations/DirList.h"
+#include "fileoperations/fileops.h"
+#include "fileoperations/dirlist.h"
 #include "menu.h"
 #include "network/networkops.h"
 #include "network/https.h"
-#include "network/URL_List.h"
-#include "prompts/PromptWindows.h"
-#include "prompts/ProgressWindow.h"
-#include "utils/ShowError.h"
+#include "network/url_list.h"
+#include "prompts/promptwindows.h"
+#include "prompts/progresswindow.h"
+#include "utils/showerror.h"
 #include "gecko.h"
 #include "svnrev.h"
 

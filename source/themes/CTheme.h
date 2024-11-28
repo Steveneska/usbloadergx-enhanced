@@ -4,7 +4,7 @@
 #include <string>
 #include <stdio.h>
 #include <gctypes.h>
-#include "Resources.h"
+#include "resources.h"
 #include "gettheme.h"
 
 class Theme

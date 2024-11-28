@@ -2,16 +2,16 @@
 #include <ogc/machine/processor.h>
 #include <algorithm>
 
-#include "IosLoader.h"
+#include "iosloader.h"
 #include "sys.h"
-#include "Controls/DeviceHandler.hpp"
+#include "controls/devicehandler.hpp"
 #include "usbloader/usbstorage2.h"
 #include "usbloader/disc.h"
 #include "usbloader/wbfs.h"
 #include "usbloader/wdvd.h"
 #include "wad/nandtitle.h"
 #include "mload/mload_modules.h"
-#include "settings/CSettings.h"
+#include "settings/csettings.h"
 #include "wad/nandtitle.h"
 #include "mload/mload.h"
 #include "mload/modules/ehcmodule_5.h"

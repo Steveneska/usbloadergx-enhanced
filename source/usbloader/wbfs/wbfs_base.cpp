@@ -4,7 +4,7 @@
 #include <ogcsys.h>
 #include <errno.h>
 
-#include "Controls/DeviceHandler.hpp"
+#include "controls/devicehandler.hpp"
 #include "usbloader/sdhc.h"
 #include "usbloader/usbstorage2.h"
 #include "usbloader/wbfs.h"

@@ -18,10 +18,10 @@
 #include <stdio.h>
 #include <malloc.h>
 #include <string.h>
-#include "prompts/ProgressWindow.h"
-#include "FileOperations/fileops.h"
+#include "prompts/progresswindow.h"
+#include "fileoperations/fileops.h"
 #include "language/gettext.h"
-#include "utils/ShowError.h"
+#include "utils/showerror.h"
 #include "utils/tools.h"
 #include "wad.h"
 

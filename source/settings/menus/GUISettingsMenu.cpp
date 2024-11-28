@@ -22,18 +22,18 @@
  * distribution.
  ***************************************************************************/
 #include <unistd.h>
-#include "GUISettingsMenu.hpp"
-#include "Controls/DeviceHandler.hpp"
-#include "settings/CSettings.h"
-#include "prompts/PromptWindows.h"
+#include "guisettingsmenu.hpp"
+#include "controls/devicehandler.hpp"
+#include "settings/csettings.h"
+#include "prompts/promptwindows.h"
 #include "language/gettext.h"
-#include "settings/SettingsPrompts.h"
-#include "settings/GameTitles.h"
-#include "settings/CGameCategories.hpp"
-#include "SystemMenu/SystemMenuResources.h"
-#include "system/IosLoader.h"
+#include "settings/settingsprompts.h"
+#include "settings/gametitles.h"
+#include "settings/cgamecategories.hpp"
+#include "systemmenu/systemmenuresources.h"
+#include "system/iosloader.h"
 #include "usbloader/wbfs.h"
-#include "themes/CTheme.h"
+#include "themes/ctheme.h"
 #include "utils/tools.h"
 
 static const char * OnOffText[MAX_ON_OFF] =

@@ -10,10 +10,10 @@
 
 #include "gui.h"
 #include "../main.h"
-#include "../settings/CSettings.h"
+#include "../settings/csettings.h"
 #include <stdio.h>
 #include <string.h>
-#include "themes/CTheme.h"
+#include "themes/ctheme.h"
 #include "menu.h"
 /**
  * Constructor for the GuiKeyboard class.

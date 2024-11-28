@@ -6,9 +6,9 @@
  ***************************************************************************/
 #include <unistd.h>
 #include "language/gettext.h"
-#include "GUI/gui.h"
-#include "GUI/gui_optionbrowser.h"
-#include "prompts/PromptWindows.h"
+#include "gui/gui.h"
+#include "gui/gui_optionbrowser.h"
+#include "prompts/promptwindows.h"
 #include "menu/menus.h"
 #include "usbloader/disc.h"
 #include "usbloader/fstfile.h"
@@ -19,8 +19,8 @@
 #include "libs/libwbfs/wiidisc.h"
 #include "main.h"
 #include "sys.h"
-#include "settings/GameTitles.h"
-#include "themes/CTheme.h"
+#include "settings/gametitles.h"
+#include "themes/ctheme.h"
 #include "memory/memory.h"
 #include "gecko.h"
 

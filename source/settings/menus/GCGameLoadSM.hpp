@@ -17,8 +17,8 @@
 #ifndef GCGAMELOAD_SM_HPP
 #define GCGAMELOAD_SM_HPP
 
-#include "SettingsMenu.hpp"
-#include "settings/CGameSettings.h"
+#include "settingsmenu.hpp"
+#include "settings/cgamesettings.h"
 
 class GCGameLoadSM : public SettingsMenu
 {

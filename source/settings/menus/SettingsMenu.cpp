@@ -22,8 +22,8 @@
  * distribution.
  ***************************************************************************/
 #include <unistd.h>
-#include "SettingsMenu.hpp"
-#include "themes/CTheme.h"
+#include "settingsmenu.hpp"
+#include "themes/ctheme.h"
 #include "language/gettext.h"
 
 SettingsMenu::SettingsMenu(const char * title, OptionList * opts, int returnTo)

@@ -24,10 +24,10 @@
  * for WiiXplorer 2010
  ***************************************************************************/
 #include "gui.h"
-#include "ImageOperations/TextureConverter.h"
-#include "ImageOperations/TplImage.h"
-#include "FileOperations/fileops.h"
-#include "utils/ResourceManager.h"
+#include "imageoperations/textureconverter.h"
+#include "imageoperations/tplimage.h"
+#include "fileoperations/fileops.h"
+#include "utils/resourcemanager.h"
 
 #define ALIGN32(x) (((x) + 31) & ~31)
 

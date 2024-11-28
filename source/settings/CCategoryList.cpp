@@ -24,9 +24,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "CCategoryList.hpp"
+#include "ccategorylist.hpp"
 #include "language/gettext.h"
-#include "FileOperations/fileops.h"
+#include "fileoperations/fileops.h"
 #include "svnrev.h"
 
 #define VALID_CONFIG_REV	1085

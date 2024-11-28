@@ -26,7 +26,7 @@ distribution.
 #ifndef WII_BNR_TEXTBOX_H_
 #define WII_BNR_TEXTBOX_H_
 
-#include "Pane.h"
+#include "pane.h"
 
 class WiiFont;
 

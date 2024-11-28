@@ -15,10 +15,10 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  ****************************************************************************/
 #include <unistd.h>
-#include "BannerSettingsMenu.hpp"
-#include "settings/CSettings.h"
-#include "settings/SettingsPrompts.h"
-#include "prompts/PromptWindows.h"
+#include "bannersettingsmenu.hpp"
+#include "settings/csettings.h"
+#include "settings/settingsprompts.h"
+#include "prompts/promptwindows.h"
 #include "language/gettext.h"
 
 static const char * AnimStartText[] =

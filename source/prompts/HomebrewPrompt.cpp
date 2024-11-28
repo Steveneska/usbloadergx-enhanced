@@ -22,11 +22,11 @@
  * distribution.
  ***************************************************************************/
 #include <unistd.h>
-#include "HomebrewPrompt.hpp"
+#include "homebrewprompt.hpp"
 #include "themes/gettheme.h"
-#include "themes/Resources.h"
+#include "themes/resources.h"
 #include "language/gettext.h"
-#include "utils/StringTools.h"
+#include "utils/stringtools.h"
 #include "menu/menus.h"
 
 HomebrewPrompt::HomebrewPrompt(const char *name, const char *coder, const char *version,

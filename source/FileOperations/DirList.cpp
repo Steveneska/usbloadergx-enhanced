@@ -34,8 +34,8 @@
 
 #define MAXPATHLEN  1024
 
-#include "utils/StringTools.h"
-#include "DirList.h"
+#include "utils/stringtools.h"
+#include "dirlist.h"
 
 DirList::DirList(const char * path, const char *filter, u32 flags, s32 max_depth)
 {

@@ -24,8 +24,8 @@
 #include "gui_numpad.h"
 #include "main.h"
 #include "language/gettext.h"
-#include "settings/CSettings.h"
-#include "themes/CTheme.h"
+#include "settings/csettings.h"
+#include "themes/ctheme.h"
 /**
  * Constructor for the GuiNumpad class.
  */

@@ -26,8 +26,8 @@ distribution.
 #include <vector>
 #include <queue>
 #include <string>
-#include "usbloader/GameList.h"
-#include "Banner.h"
+#include "usbloader/gamelist.h"
+#include "banner.h"
 
 class BannerAsync : public Banner
 {

@@ -27,7 +27,7 @@
  ***************************************************************************/
 #include <gccore.h>
 #include <malloc.h>
-#include "TextureConverter.h"
+#include "textureconverter.h"
 
 #define MAXWIDTH 1024.0f
 #define MAXHEIGHT 768.0f

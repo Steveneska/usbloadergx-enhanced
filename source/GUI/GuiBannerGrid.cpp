@@ -14,13 +14,13 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  ****************************************************************************/
-#include "GuiBannerGrid.h"
-#include "themes/CTheme.h"
-#include "settings/CSettings.h"
-#include "settings/GameTitles.h"
+#include "guibannergrid.h"
+#include "themes/ctheme.h"
+#include "settings/csettings.h"
+#include "settings/gametitles.h"
 #include "settings/newtitles.h"
-#include "SystemMenu/SystemMenuResources.h"
-#include "usbloader/GameList.h"
+#include "systemmenu/systemmenuresources.h"
+#include "usbloader/gamelist.h"
 #include "gecko.h"
 
 //! some math to get the row and column from channel idx

@@ -11,20 +11,20 @@
 #include <sys/statvfs.h>
 #include <ctype.h>
 
-#include "Controls/DeviceHandler.hpp"
-#include "FileOperations/fileops.h"
-#include "settings/CSettings.h"
-#include "settings/GameTitles.h"
+#include "controls/devicehandler.hpp"
+#include "fileoperations/fileops.h"
+#include "settings/csettings.h"
+#include "settings/gametitles.h"
 #include "usbloader/disc.h"
 #include "usbloader/usbstorage2.h"
 #include "language/gettext.h"
 #include "libs/libfat/fat.h"
 #include "libs/libfat/fatfile_frag.h"
-#include "utils/ShowError.h"
+#include "utils/showerror.h"
 #include "wbfs_fat.h"
-#include "prompts/ProgressWindow.h"
+#include "prompts/progresswindow.h"
 #include "usbloader/wbfs.h"
-#include "usbloader/GameList.h"
+#include "usbloader/gamelist.h"
 #include "utils/tools.h"
 #include "wbfs_rw.h"
 

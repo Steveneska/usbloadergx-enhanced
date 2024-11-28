@@ -27,10 +27,10 @@
 #include <cstring>
 #include <sys/dirent.h>
 
-#include "FileOperations/fileops.h"
-#include "Controls/DeviceHandler.hpp"
-#include "settings/CSettings.h"
-#include "settings/GameTitles.h"
+#include "fileoperations/fileops.h"
+#include "controls/devicehandler.hpp"
+#include "settings/csettings.h"
+#include "settings/gametitles.h"
 #include "patches/gamepatches.h"
 #include "wad/nandtitle.h"
 #include "memory/memory.h"

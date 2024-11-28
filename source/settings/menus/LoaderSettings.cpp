@@ -22,21 +22,21 @@
  * distribution.
  ***************************************************************************/
 #include <unistd.h>
-#include "LoaderSettings.hpp"
+#include "loadersettings.hpp"
 #include "usbloader/usbstorage2.h"
-#include "settings/CSettings.h"
-#include "settings/GameTitles.h"
+#include "settings/csettings.h"
+#include "settings/gametitles.h"
 #include "settings/meta.h"
-#include "prompts/PromptWindows.h"
+#include "prompts/promptwindows.h"
 #include "language/gettext.h"
 #include "wad/nandtitle.h"
-#include "prompts/TitleBrowser.h"
-#include "system/IosLoader.h"
+#include "prompts/titlebrowser.h"
+#include "system/iosloader.h"
 #include "usbloader/wbfs.h"
-#include "usbloader/GameList.h"
+#include "usbloader/gamelist.h"
 #include "utils/tools.h"
 #include "menu.h"
-#include "GameCube/GCGames.h"
+#include "gamecube/gcgames.h"
 
 static const char * OnOffText[] =
 {

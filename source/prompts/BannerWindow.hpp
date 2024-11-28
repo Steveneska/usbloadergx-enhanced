@@ -17,12 +17,12 @@
 #ifndef BANNERWINDOW_HPP_
 #define BANNERWINDOW_HPP_
 
-#include "GUI/gui.h"
-#include "GUI/gui_diskcover.h"
-#include "menu/GameBrowseMenu.hpp"
+#include "gui/gui.h"
+#include "gui/gui_diskcover.h"
+#include "menu/gamebrowsemenu.hpp"
 #include "usbloader/disc.h"
-#include "SystemMenu/SystemMenuResources.h"
-#include "banner/Banner.h"
+#include "systemmenu/systemmenuresources.h"
+#include "banner/banner.h"
 
 #define FAVORITE_STARS  5
 

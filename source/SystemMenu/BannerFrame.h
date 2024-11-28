@@ -17,7 +17,7 @@
 #ifndef BANNERFRAME_H
 #define BANNERFRAME_H
 
-#include "banner/Layout.h"
+#include "banner/layout.h"
 
 // This is a class to deal with the frame the goes over the large banners
 class BannerFrame : public Layout

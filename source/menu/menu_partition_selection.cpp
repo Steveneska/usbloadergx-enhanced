@@ -3,9 +3,9 @@
 #include "menus.h"
 #include "usbloader/usbstorage2.h"
 #include "usbloader/wbfs.h"
-#include "GUI/gui_optionbrowser.h"
-#include "Controls/DeviceHandler.hpp"
-#include "themes/CTheme.h"
+#include "gui/gui_optionbrowser.h"
+#include "controls/devicehandler.hpp"
+#include "themes/ctheme.h"
 #include "utils/tools.h"
 
 /****************************************************************************

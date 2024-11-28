@@ -26,7 +26,7 @@
 #include <tremor/ivorbiscodec.h>
 #include <tremor/ivorbisfile.h>
 
-#include "SoundDecoder.hpp"
+#include "sounddecoder.hpp"
 
 class OggDecoder : public SoundDecoder
 {

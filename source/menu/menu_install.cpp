@@ -1,18 +1,18 @@
 #include <unistd.h>
 #include "menus.h"
-#include "GameCube/GCGames.h"
-#include "GameCube/GCDumper.hpp"
+#include "gamecube/gcgames.h"
+#include "gamecube/gcdumper.hpp"
 #include "usbloader/usbstorage2.h"
 #include "usbloader/wbfs.h"
 #include "usbloader/disc.h"
-#include "usbloader/GameList.h"
-#include "prompts/ProgressWindow.h"
-#include "prompts/GCMultiDiscMenu.h"
-#include "themes/CTheme.h"
+#include "usbloader/gamelist.h"
+#include "prompts/progresswindow.h"
+#include "prompts/gcmultidiscmenu.h"
+#include "themes/ctheme.h"
 #include "utils/tools.h"
-#include "system/IosLoader.h"
+#include "system/iosloader.h"
 #include "cache/cache.hpp"
-#include "settings/GameTitles.h"
+#include "settings/gametitles.h"
 
 #define WII_MAGIC   0x5D1C9EA3
 

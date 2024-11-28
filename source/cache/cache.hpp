@@ -1,5 +1,5 @@
 #include "usbloader/disc.h"
-#include "settings/CSettings.h"
+#include "settings/csettings.h"
 
 #define WII_HEADER_CACHE_FILE "wii.cache"
 #define GAMECUBE_HEADER_CACHE_FILE "gamecube.cache"

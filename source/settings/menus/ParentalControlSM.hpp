@@ -24,7 +24,7 @@
 #ifndef PARENTALCONTROL_MENU_HPP_
 #define PARENTALCONTROL_MENU_HPP_
 
-#include "SettingsMenu.hpp"
+#include "settingsmenu.hpp"
 
 class ParentalControlSM : public SettingsMenu
 {

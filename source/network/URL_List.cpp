@@ -8,7 +8,7 @@
 #include <string.h>
 #include <gctypes.h>
 
-#include "URL_List.h"
+#include "url_list.h"
 
 URL_List::URL_List(const char * url)
 {

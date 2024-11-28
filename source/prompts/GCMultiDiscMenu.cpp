@@ -15,13 +15,13 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  ****************************************************************************/
 #include <unistd.h>
-#include "GCMultiDiscMenu.h"
-#include "GameCube/GCGames.h"
-#include "settings/CSettings.h"
-#include "settings/GameTitles.h"
+#include "gcmultidiscmenu.h"
+#include "gamecube/gcgames.h"
+#include "settings/csettings.h"
+#include "settings/gametitles.h"
 #include "language/gettext.h"
 #include "themes/gettheme.h"
-#include "themes/Resources.h"
+#include "themes/resources.h"
 #include "menu/menus.h"
 
 GCMultiDiscMenu::GCMultiDiscMenu(const std::vector<struct discHdr> &List)

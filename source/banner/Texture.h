@@ -28,7 +28,7 @@ distribution.
 #include <vector>
 #include <string>
 #include <gccore.h>
-#include "BannerTools.h"
+#include "bannertools.h"
 
 class Texture
 {

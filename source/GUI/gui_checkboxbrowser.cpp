@@ -22,7 +22,7 @@
  * distribution.
  ***************************************************************************/
 #include "gui_checkboxbrowser.hpp"
-#include "themes/Resources.h"
+#include "themes/resources.h"
 #include "themes/gettheme.h"
 #include "wstring.hpp"
 

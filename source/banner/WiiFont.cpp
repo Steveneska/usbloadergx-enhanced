@@ -27,7 +27,7 @@ distribution.
 #endif
 
 #include <malloc.h>
-#include "WiiFont.h"
+#include "wiifont.h"
 
 WiiFont::WiiFont()
 	: header(NULL)

@@ -22,7 +22,7 @@
 #include "menu/menus.h"
 #include "memory/mem2.h"
 #include "wad/nandtitle.h"
-#include "StartUpProcess.h"
+#include "startupprocess.h"
 #include "sys.h"
 
 extern "C"

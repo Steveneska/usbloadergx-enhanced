@@ -21,12 +21,12 @@
  * 3. This notice may not be removed or altered from any source
  * distribution.
  ***************************************************************************/
-#include "Wiinnertag.h"
-#include "FileOperations/fileops.h"
-#include "settings/CSettings.h"
+#include "wiinnertag.h"
+#include "fileoperations/fileops.h"
+#include "settings/csettings.h"
 #include "network/networkops.h"
 #include "network/https.h"
-#include "utils/StringTools.h"
+#include "utils/stringtools.h"
 #include "xml/pugixml.hpp"
 #include "gecko.h"
 

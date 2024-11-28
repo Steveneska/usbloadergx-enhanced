@@ -23,8 +23,8 @@ distribution.
 */
 
 #include <math.h>
-#include "Animator.h"
-#include "Layout.h"
+#include "animator.h"
+#include "layout.h"
 
 // load keyframes from a brlan file
 u32 Animator::LoadAnimators(const RLAN_Header *header, Layout& layout, u8 key_set)

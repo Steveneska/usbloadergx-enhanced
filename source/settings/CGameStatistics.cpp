@@ -3,8 +3,8 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "CGameStatistics.h"
-#include "FileOperations/fileops.h"
+#include "cgamestatistics.h"
+#include "fileoperations/fileops.h"
 #include "svnrev.h"
 
 #define VALID_CONFIG_REV	1031

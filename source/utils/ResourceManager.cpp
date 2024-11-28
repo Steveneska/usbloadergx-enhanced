@@ -21,7 +21,7 @@
  * 3. This notice may not be removed or altered from any source
  * distribution.
  ***************************************************************************/
-#include "ResourceManager.h"
+#include "resourcemanager.h"
 
 ResourceManager * ResourceManager::instance = NULL;
 

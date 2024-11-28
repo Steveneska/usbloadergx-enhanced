@@ -36,9 +36,9 @@
 #include <unistd.h>
 #include <vector>
 
-#include "prompts/ProgressWindow.h"
+#include "prompts/progresswindow.h"
 #include "language/gettext.h"
-#include "DirList.h"
+#include "dirlist.h"
 #include "fileops.h"
 
 #define BLOCKSIZE	70*1024	//70KB

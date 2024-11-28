@@ -24,11 +24,11 @@
  * for WiiXplorer 2010
  ***************************************************************************/
 #include <unistd.h>
-#include "GUI/gui.h"
+#include "gui/gui.h"
 #include "utils/uncompress.h"
-#include "FileOperations/fileops.h"
-#include "SoundHandler.hpp"
-#include "WavDecoder.hpp"
+#include "fileoperations/fileops.h"
+#include "soundhandler.hpp"
+#include "wavdecoder.hpp"
 
 #define MAX_SND_VOICES	  16
 

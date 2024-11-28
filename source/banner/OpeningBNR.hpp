@@ -25,7 +25,7 @@ distribution.
 
 #include <gctypes.h>
 #include "usbloader/disc.h"
-#include "CustomBanner.h"
+#include "custombanner.h"
 
 typedef struct _GC_OpeningBnr
 {

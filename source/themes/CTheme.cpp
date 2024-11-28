@@ -26,15 +26,15 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "CTheme.h"
-#include "GUI/gui.h"
-#include "settings/CSettings.h"
-#include "banner/OpeningBNR.hpp"
-#include "FileOperations/fileops.h"
-#include "SystemMenu/SystemMenuResources.h"
+#include "ctheme.h"
+#include "gui/gui.h"
+#include "settings/csettings.h"
+#include "banner/openingbnr.hpp"
+#include "fileoperations/fileops.h"
+#include "systemmenu/systemmenuresources.h"
 #include "menu/menus.h"
 #include "wad/nandtitle.h"
-#include "FreeTypeGX.h"
+#include "freetypegx.h"
 
 FreeTypeGX * fontSystem = NULL;
 static FT_Byte * customFont = NULL;

@@ -26,7 +26,7 @@ distribution.
 #include <set>
 #include <string.h>
 #include <malloc.h>
-#include "Texture.h"
+#include "texture.h"
 #include "video.h"
 
 Texture::~Texture()

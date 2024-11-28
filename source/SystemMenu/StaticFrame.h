@@ -17,7 +17,7 @@
 #ifndef STATICFRAME_H
 #define STATICFRAME_H
 
-#include "banner/Layout.h"
+#include "banner/layout.h"
 
 // This is a class to deal with the frame the goes as default channel
 class StaticFrame : public Layout

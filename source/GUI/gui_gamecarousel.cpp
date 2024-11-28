@@ -13,11 +13,11 @@
 #include <unistd.h>
 #include "gui_image_async.h"
 #include "gui_gamecarousel.h"
-#include "usbloader/GameList.h"
-#include "settings/GameTitles.h"
-#include "settings/CSettings.h"
-#include "GUI/LoadCoverImage.h"
-#include "themes/CTheme.h"
+#include "usbloader/gamelist.h"
+#include "settings/gametitles.h"
+#include "settings/csettings.h"
+#include "gui/loadcoverimage.h"
+#include "themes/ctheme.h"
 #include "utils/tools.h"
 #include "main.h"
 

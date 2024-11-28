@@ -21,9 +21,9 @@
  * 3. This notice may not be removed or altered from any source
  * distribution.
  ***************************************************************************/
-#include "CategorySwitchPrompt.hpp"
-#include "settings/CGameCategories.hpp"
-#include "settings/CSettings.h"
+#include "categoryswitchprompt.hpp"
+#include "settings/cgamecategories.hpp"
+#include "settings/csettings.h"
 #include "language/gettext.h"
 
 CategorySwitchPrompt::CategorySwitchPrompt()

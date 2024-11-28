@@ -28,10 +28,10 @@
 #include <stdio.h>
 #include <gctypes.h>
 #include <vector>
-#include "SettingsEnums.h"
-#include "GameCube/DML_Config.h"
-#include "GameCube/DEVO_Config.h"
-#include "GameCube/NIN_Config.h"
+#include "settingsenums.h"
+#include "gamecube/dml_config.h"
+#include "gamecube/devo_config.h"
+#include "gamecube/nin_config.h"
 
 class CSettings
 {

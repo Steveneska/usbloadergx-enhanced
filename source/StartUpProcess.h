@@ -1,7 +1,7 @@
 #ifndef STARTUPPROCESS_H_
 #define STARTUPPROCESS_H_
 
-#include "GUI/gui.h"
+#include "gui/gui.h"
 
 class StartUpProcess
 {

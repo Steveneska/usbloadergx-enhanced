@@ -25,19 +25,19 @@
 #include <string>
 #include <malloc.h>
 
-#include "GUI/gui_searchbar.h"
+#include "gui/gui_searchbar.h"
 #include "usbloader/wbfs.h"
-#include "GameCube/GCGames.h"
+#include "gamecube/gcgames.h"
 #include "settings/newtitles.h"
-#include "settings/CSettings.h"
-#include "settings/CGameSettings.h"
-#include "settings/CGameStatistics.h"
-#include "settings/GameTitles.h"
-#include "settings/CGameCategories.hpp"
-#include "FreeTypeGX.h"
-#include "GameList.h"
+#include "settings/csettings.h"
+#include "settings/cgamesettings.h"
+#include "settings/cgamestatistics.h"
+#include "settings/gametitles.h"
+#include "settings/cgamecategories.hpp"
+#include "freetypegx.h"
+#include "gamelist.h"
 #include "memory/memory.h"
-#include "Channels/channels.h"
+#include "channels/channels.h"
 #include "cache/cache.hpp"
 
 enum

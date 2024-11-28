@@ -26,7 +26,7 @@
 #ifndef BNSDECODER_HPP_
 #define BNSDECODER_HPP_
 
-#include "SoundDecoder.hpp"
+#include "sounddecoder.hpp"
 
 typedef struct _SoundBlock
 {

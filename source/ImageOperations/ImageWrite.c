@@ -26,7 +26,7 @@
 #include <stdio.h>
 #include <gctypes.h>
 #include <gd.h>
-#include "ImageWrite.h"
+#include "imagewrite.h"
 
 #define LIMIT(x, min, max) ( (x < min) ? min : (x > max) ? max : x )
 

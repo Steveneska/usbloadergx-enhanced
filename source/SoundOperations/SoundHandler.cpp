@@ -25,12 +25,12 @@
  ***************************************************************************/
 #include <unistd.h>
 #include <malloc.h>
-#include "SoundHandler.hpp"
-#include "Mp3Decoder.hpp"
-#include "OggDecoder.hpp"
-#include "WavDecoder.hpp"
-#include "AifDecoder.hpp"
-#include "BNSDecoder.hpp"
+#include "soundhandler.hpp"
+#include "mp3decoder.hpp"
+#include "oggdecoder.hpp"
+#include "wavdecoder.hpp"
+#include "aifdecoder.hpp"
+#include "bnsdecoder.hpp"
 
 SoundHandler * SoundHandler::instance = NULL;
 

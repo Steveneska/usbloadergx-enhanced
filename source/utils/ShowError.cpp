@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 #include "language/gettext.h"
-#include "prompts/PromptWindows.h"
+#include "prompts/promptwindows.h"
 
 extern "C" void ShowError(const char * format, ...)
 {

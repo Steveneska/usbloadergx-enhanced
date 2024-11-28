@@ -28,7 +28,7 @@ distribution.
 #include <map>
 #include <cstring>
 #include <string>
-#include "BannerTools.h"
+#include "bannertools.h"
 
 typedef float FrameNumber;
 

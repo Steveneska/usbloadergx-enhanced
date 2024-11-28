@@ -24,7 +24,7 @@
 #ifndef CUSTOMPATHS_MENU_HPP_
 #define CUSTOMPATHS_MENU_HPP_
 
-#include "SettingsMenu.hpp"
+#include "settingsmenu.hpp"
 
 class CustomPathsSM : public SettingsMenu
 {

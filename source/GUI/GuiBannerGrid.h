@@ -21,9 +21,9 @@
 #include "gui.h"
 #include "gui_gamebrowser.h"
 #include "usbloader/disc.h"
-#include "banner/BannerAsync.h"
-#include "banner/Texture.h"
-#include "SystemMenu/StaticFrame.h"
+#include "banner/bannerasync.h"
+#include "banner/texture.h"
+#include "systemmenu/staticframe.h"
 
 #define MAX_BUTTONS	12
 

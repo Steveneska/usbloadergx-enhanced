@@ -24,7 +24,7 @@
 #ifndef GUICROSS_HPP_
 #define GUICROSS_HPP_
 
-#include "GUI/gui.h"
+#include "gui/gui.h"
 
 class GuiCross : public GuiElement
 {

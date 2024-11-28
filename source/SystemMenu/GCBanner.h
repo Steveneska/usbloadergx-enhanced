@@ -17,7 +17,7 @@
 #ifndef GCBANNER_H
 #define GCBANNER_H
 
-#include "banner/Layout.h"
+#include "banner/layout.h"
 
 // This is a class to deal with the gc disc channel
 class GCBanner : public Layout

@@ -17,7 +17,7 @@
 #ifndef CHECKBOXBROWSERMENU_H
 #define CHECKBOXBROWSERMENU_H
 
-#include "GUI/gui_checkboxbrowser.hpp"
+#include "gui/gui_checkboxbrowser.hpp"
 
 class CheckboxBrowserMenu : public GuiWindow, public sigslot::has_slots<>
 {

@@ -18,7 +18,7 @@
 #define CUSTOM_BANNER_H_
 
 #include <vector>
-#include "Banner.h"
+#include "banner.h"
 
 class CustomBanner : public Banner
 {

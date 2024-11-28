@@ -25,7 +25,7 @@ distribution.
 #ifndef WII_BNR_PICTURE_H_
 #define WII_BNR_PICTURE_H_
 
-#include "QuadPane.h"
+#include "quadpane.h"
 
 class Picture : public QuadPane
 {

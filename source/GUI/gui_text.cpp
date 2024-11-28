@@ -10,7 +10,7 @@
 
 #include "gui.h"
 #include "wstring.hpp"
-#include "settings/CSettings.h"
+#include "settings/csettings.h"
 #include "utils/tools.h"
 
 #define MAX_LINES_TO_DRAW   9

@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <string.h>
-#include "WDMFile.hpp"
+#include "wdmfile.hpp"
 
 static inline int GetNumber(const char * line)
 {

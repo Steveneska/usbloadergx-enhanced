@@ -26,8 +26,8 @@
 
 #include <vector>
 #include <string>
-#include "GUI/gui.h"
-#include "SettingsMenu.hpp"
+#include "gui/gui.h"
+#include "settingsmenu.hpp"
 #include "menu.h"
 
 class FlyingButtonsMenu : public GuiWindow

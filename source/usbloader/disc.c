@@ -14,9 +14,9 @@
 #include "alternatedol.h"
 #include "memory/memory.h"
 #include "wbfs.h"
-#include "settings/SettingsEnums.h"
-#include "GameCube/DML_Config.h"
-#include "GameCube/NIN_Config.h"
+#include "settings/settingsenums.h"
+#include "gamecube/dml_config.h"
+#include "gamecube/nin_config.h"
 #include "gecko.h"
 
 /* GCC 11 false positives */

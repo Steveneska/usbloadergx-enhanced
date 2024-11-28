@@ -26,8 +26,8 @@
 
 #include <vector>
 #include <string>
-#include "settings/menus/FlyingButtonsMenu.hpp"
-#include "FileOperations/DirList.h"
+#include "settings/menus/flyingbuttonsmenu.hpp"
+#include "fileoperations/dirlist.h"
 
 class ThemeMenu : public FlyingButtonsMenu
 {

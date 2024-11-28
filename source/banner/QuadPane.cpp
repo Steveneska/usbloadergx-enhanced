@@ -21,8 +21,8 @@ misrepresented as being the original software.
 3. This notice may not be removed or altered from any source
 distribution.
 */
-#include "QuadPane.h"
-#include "Layout.h"
+#include "quadpane.h"
+#include "layout.h"
 
 void QuadPane::Load(QuadPane::Header* file)
 {

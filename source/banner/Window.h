@@ -24,7 +24,7 @@ distribution.
 #ifndef WII_BNR_WINDOW_H_
 #define WII_BNR_WINDOW_H_
 
-#include "QuadPane.h"
+#include "quadpane.h"
 
 class Window : public QuadPane
 {

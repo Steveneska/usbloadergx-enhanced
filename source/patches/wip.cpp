@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include "gecko.h"
 
-#include "settings/CSettings.h"
+#include "settings/csettings.h"
 #include "memory/mem2.h"
 #include "wip.h"
 

@@ -1,4 +1,4 @@
-#include "prompts/PromptWindows.h"
+#include "prompts/promptwindows.h"
 #include "language/gettext.h"
 #include "gecko.h"
 

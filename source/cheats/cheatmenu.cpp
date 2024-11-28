@@ -1,12 +1,12 @@
 #include <string.h>
 #include <unistd.h>
 
-#include "GUI/gui.h"
-#include "GUI/gui_optionbrowser.h"
-#include "prompts/PromptWindows.h"
+#include "gui/gui.h"
+#include "gui/gui_optionbrowser.h"
+#include "prompts/promptwindows.h"
 #include "language/gettext.h"
-#include "themes/CTheme.h"
-#include "FileOperations/fileops.h"
+#include "themes/ctheme.h"
+#include "fileoperations/fileops.h"
 #include "menu.h"
 #include "sys.h"
 #include "gct.h"

@@ -5,7 +5,7 @@
  * Backgroundmusic
  ***************************************************************************/
 #include <sys/dirent.h>
-#include "themes/CTheme.h"
+#include "themes/ctheme.h"
 #include "gui_bgm.h"
 #include "menu.h"
 

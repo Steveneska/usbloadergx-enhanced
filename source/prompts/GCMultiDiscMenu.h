@@ -17,7 +17,7 @@
 #ifndef GCMULTIDISCMENU_H
 #define GCMULTIDISCMENU_H
 
-#include "CheckboxBrowserMenu.h"
+#include "checkboxbrowsermenu.h"
 
 class GCMultiDiscMenu : public CheckboxBrowserMenu
 {

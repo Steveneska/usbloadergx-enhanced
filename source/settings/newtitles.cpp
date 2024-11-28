@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <string.h>
 
-#include "CSettings.h"
-#include "settings/CGameStatistics.h"
+#include "csettings.h"
+#include "settings/cgamestatistics.h"
 #include "newtitles.h"
 
 #define NEW_SECONDS (24 * 60 * 60)

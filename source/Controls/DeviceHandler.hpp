@@ -28,9 +28,9 @@
 
 #include <sdcard/wiisd_io.h>
 #include "usbloader/sdhc.h"
-#include "PartitionHandle.h"
+#include "partitionhandle.h"
 #include "usbloader/usbstorage2.h"
-#include "settings/CSettings.h"
+#include "settings/csettings.h"
 
 extern const DISC_INTERFACE __io_sdhc;
 

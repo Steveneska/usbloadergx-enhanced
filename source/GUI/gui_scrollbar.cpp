@@ -21,7 +21,7 @@
  * 3. This notice may not be removed or altered from any source
  * distribution.
  ***************************************************************************/
-#include "themes/Resources.h"
+#include "themes/resources.h"
 #include "menu/menus.h"
 #include "gui_scrollbar.hpp"
 #include "utils/tools.h"
@@ -52,7 +52,6 @@ GuiScrollbar::GuiScrollbar(int h, u8 m)
 	arrowUpOver = Resources::GetImageData("scrollbar_arrowup.png");
 	scrollbarBox = Resources::GetImageData("scrollbar_box.png");
 	scrollbarBoxOver = Resources::GetImageData("scrollbar_box.png");
-	oneButtonScrollImgData = Resources::GetImageData("oneButtonScroll.png");
 
 	height = h;
 	width = MAX(scrollbarBox->GetWidth(), scrollbarTile->GetWidth());

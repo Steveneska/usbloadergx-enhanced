@@ -24,7 +24,7 @@ distribution.
 #ifndef _QUAD_PANE_H_
 #define _QUAD_PANE_H_
 
-#include "Pane.h"
+#include "pane.h"
 
 // used by Picture and Window
 class QuadPane : public Pane

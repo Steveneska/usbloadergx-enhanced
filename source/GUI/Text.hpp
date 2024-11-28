@@ -1,7 +1,7 @@
 #ifndef _TEXT_HPP_
 #define _TEXT_HPP_
 
-#include "GUI/gui.h"
+#include "gui/gui.h"
 #include "wstring.hpp"
 
 typedef struct

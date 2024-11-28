@@ -21,10 +21,10 @@
  * 3. This notice may not be removed or altered from any source
  * distribution.
  ***************************************************************************/
-#include "BoxCover.hpp"
-#include "BoxMesh.hpp"
-#include "settings/CSettings.h"
-#include "themes/CTheme.h"
+#include "boxcover.hpp"
+#include "boxmesh.hpp"
+#include "settings/csettings.h"
+#include "themes/ctheme.h"
 #include "menu.h"
 
 BoxCover::BoxCover(GuiImageData * img, bool flat)

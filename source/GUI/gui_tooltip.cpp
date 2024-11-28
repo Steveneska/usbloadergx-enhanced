@@ -9,7 +9,7 @@
  ***************************************************************************/
 
 #include "gui.h"
-#include "themes/CTheme.h"
+#include "themes/ctheme.h"
 /**
  * Constructor for the GuiTooltip class.
  */

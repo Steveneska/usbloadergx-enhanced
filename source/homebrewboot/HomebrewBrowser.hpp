@@ -24,8 +24,8 @@
 #ifndef HOMEBREWBROWSER_HPP_
 #define HOMEBREWBROWSER_HPP_
 
-#include "settings/menus/FlyingButtonsMenu.hpp"
-#include "FileOperations/DirList.h"
+#include "settings/menus/flyingbuttonsmenu.hpp"
+#include "fileoperations/dirlist.h"
 
 #define DISPLAY_BUTTONS 4
 

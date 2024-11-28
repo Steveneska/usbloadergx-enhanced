@@ -84,7 +84,7 @@
 #include <malloc.h>
 #include <ctype.h>
 
-#include "MD5.h"
+#include "md5.h"
 
 /* -------------------------------------------------------------------------- **
  * Static Constants:

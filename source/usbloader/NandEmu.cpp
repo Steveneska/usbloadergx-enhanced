@@ -8,10 +8,10 @@
 #include <malloc.h>
 #include <string.h>
 
-#include "system/IosLoader.h"
+#include "system/iosloader.h"
 #include "utils/tools.h"
 #include "gecko.h"
-#include "NandEmu.h"
+#include "nandemu.h"
 
 /* 'NAND Device' structure */
 typedef struct {

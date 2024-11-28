@@ -22,10 +22,10 @@ misrepresented as being the original software.
 distribution.
 */
 #include <malloc.h>
-#include "SystemMenu/SystemMenuResources.h"
-#include "utils/U8Archive.h"
-#include "utils/LanguageCode.h"
-#include "Banner.h"
+#include "systemmenu/systemmenuresources.h"
+#include "utils/u8archive.h"
+#include "utils/languagecode.h"
+#include "banner.h"
 
 Banner::Banner()
 	: banner_bin(NULL)

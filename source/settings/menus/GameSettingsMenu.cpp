@@ -22,20 +22,20 @@
  * distribution.
  ***************************************************************************/
 #include <unistd.h>
-#include "GameSettingsMenu.hpp"
-#include "themes/CTheme.h"
-#include "FileOperations/fileops.h"
-#include "prompts/PromptWindows.h"
-#include "prompts/ProgressWindow.h"
-#include "prompts/CategorySelectPrompt.hpp"
-#include "settings/GameTitles.h"
-#include "usbloader/GameList.h"
+#include "gamesettingsmenu.hpp"
+#include "themes/ctheme.h"
+#include "fileoperations/fileops.h"
+#include "prompts/promptwindows.h"
+#include "prompts/progresswindow.h"
+#include "prompts/categoryselectprompt.hpp"
+#include "settings/gametitles.h"
+#include "usbloader/gamelist.h"
 #include "language/gettext.h"
 #include "wad/nandtitle.h"
 #include "cheats/cheatmenu.h"
-#include "GameLoadSM.hpp"
-#include "GCGameLoadSM.hpp"
-#include "UninstallSM.hpp"
+#include "gameloadsm.hpp"
+#include "gcgameloadsm.hpp"
+#include "uninstallsm.hpp"
 
 GameSettingsMenu::GameSettingsMenu(GameBrowseMenu *parent, struct discHdr * header)
 	: FlyingButtonsMenu(GameTitles.GetTitle(header)), browserMenu(parent)

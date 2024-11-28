@@ -29,7 +29,7 @@
 #include <unistd.h>
 #include <malloc.h>
 #include <math.h>
-#include "Mp3Decoder.hpp"
+#include "mp3decoder.hpp"
 
 Mp3Decoder::Mp3Decoder(const char * filepath)
 	: SoundDecoder(filepath)

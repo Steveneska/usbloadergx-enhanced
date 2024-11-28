@@ -22,7 +22,7 @@ misrepresented as being the original software.
 distribution.
 */
 
-#include "Picture.h"
+#include "picture.h"
 
 void Picture::Load(Pane::Header * file)
 {

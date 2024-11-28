@@ -33,7 +33,7 @@
 #include "libs/libext2fs/ext2.h"
 #include "libs/libwbfs/libwbfs.h"
 #include "utils/uncompress.h"
-#include "PartitionHandle.h"
+#include "partitionhandle.h"
 
 //! libfat stuff
 extern "C"

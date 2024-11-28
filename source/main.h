@@ -8,7 +8,7 @@
 #ifndef _MAIN_H_
 #define _MAIN_H_
 
-#include "FreeTypeGX.h"
+#include "freetypegx.h"
 
 void DefaultSettings();
 extern FreeTypeGX *fontSystem;

@@ -4,15 +4,15 @@
 
 #include "cache.hpp"
 #include "usbloader/disc.h"
-#include "settings/CSettings.h"
-#include "FileOperations/fileops.h"
+#include "settings/csettings.h"
+#include "fileoperations/fileops.h"
 #include "memory/memory.h"
-#include "Channels/channels.h"
-#include "usbloader/GameList.h"
-#include "GameCube/GCGames.h"
-#include "FileOperations/DirList.h"
+#include "channels/channels.h"
+#include "usbloader/gamelist.h"
+#include "gamecube/gcgames.h"
+#include "fileoperations/dirlist.h"
 #include "wad/nandtitle.h"
-#include "Controls/DeviceHandler.hpp"
+#include "controls/devicehandler.hpp"
 #include "gecko.h"
 
 void ResetGameHeaderCache()

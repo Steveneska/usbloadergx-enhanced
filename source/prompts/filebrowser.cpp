@@ -21,11 +21,11 @@
 
 #include "menu.h"
 
-#include "themes/CTheme.h"
-#include "FileOperations/fileops.h"
+#include "themes/ctheme.h"
+#include "fileoperations/fileops.h"
 #include "language/gettext.h"
-#include "PromptWindows.h"
-#include "GUI/gui_filebrowser.h"
+#include "promptwindows.h"
+#include "gui/gui_filebrowser.h"
 #include "sys.h"
 #include "filebrowser.h"
 

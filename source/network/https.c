@@ -8,8 +8,8 @@
 #include "../svnrev.h"
 #include "gecko.h"
 #include "https.h"
-#include "prompts/ProgressWindow.h"
-#include "settings/ProxySettings.h"
+#include "prompts/progresswindow.h"
+#include "settings/proxysettings.h"
 #include "utils/base64.h"
 
 u8 loop;

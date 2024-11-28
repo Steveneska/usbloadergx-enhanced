@@ -1,7 +1,7 @@
 #include <malloc.h>
 #include <string.h>
-#include "FileOperations/fileops.h"
-#include "Resources.h"
+#include "fileoperations/fileops.h"
+#include "resources.h"
 #include "filelist.h"
 
 void Resources::Clear()

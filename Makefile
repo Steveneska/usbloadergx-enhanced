@@ -17,8 +17,8 @@ include $(DEVKITPPC)/wii_rules
 TARGET		:=	boot
 BUILD		:=	build
 SOURCES		:=	source \
-				source/GUI \
-				source/Controls \
+				source/gui \
+				source/controls \
 				source/system \
 				source/libs/libwbfs \
 				source/libs/libruntimeiospatch \
@@ -34,18 +34,18 @@ SOURCES		:=	source \
 				source/prompts \
 				source/wad \
 				source/banner \
-				source/Channels \
-				source/BoxCover \
-				source/GameCube \
+				source/channels \
+				source/boxcover \
+				source/gamecube \
 				source/cheats \
 				source/homebrewboot \
 				source/themes \
 				source/menu \
 				source/memory \
-				source/FileOperations \
-				source/ImageOperations \
-				source/SoundOperations \
-				source/SystemMenu \
+				source/fileoperations \
+				source/imageoperations \
+				source/soundoperations \
+				source/systemmenu \
 				source/utils \
 				source/utils/minizip \
 				source/usbloader/wbfs \
@@ -207,7 +207,7 @@ DEPENDS	:=	$(OFILES:.o=.d)
 $(OUTPUT).dol: $(OUTPUT).elf
 $(OUTPUT).elf: $(OFILES)
 
-language: $(wildcard $(PROJECTDIR)/Languages/*.lang) $(wildcard $(PROJECTDIR)/Themes/*.them)
+language: $(wildcard $(PROJECTDIR)/languages/*.lang) $(wildcard $(PROJECTDIR)/themes/*.them)
 #---------------------------------------------------------------------------------
 # This rule links in binary data with .ttf, .png, and .mp3 extensions
 #---------------------------------------------------------------------------------
@@ -271,18 +271,18 @@ language: $(wildcard $(PROJECTDIR)/Languages/*.lang) $(wildcard $(PROJECTDIR)/Th
 export PATH		:=	$(PROJECTDIR)/gettext-bin:$(PATH)
 
 %.pot: $(CFILES) $(CPPFILES)
-	@echo Updating Languagefiles ...
-	@touch $(PROJECTDIR)/Languages/$(TARGET).pot
-	@xgettext -C -cTRANSLATORS --from-code=utf-8 --sort-output --no-wrap --no-location -ktr -ktrNOOP -o$(PROJECTDIR)/Languages/$(TARGET).pot -p $@ $^
-	@echo Updating Themefiles ...
-	@touch $(PROJECTDIR)/Themes/$(TARGET).pot
-	@xgettext -C -cTRANSLATORS --from-code=utf-8 -F --no-wrap --add-location -kthInt -kthFloat -kthColor -kthAlign -o$(PROJECTDIR)/Themes/$(TARGET).pot -p $@ $^
+	@echo Updating Language files...
+	@touch $(PROJECTDIR)/languages/$(TARGET).pot
+	@xgettext -C -cTRANSLATORS --from-code=utf-8 --sort-output --no-wrap --no-location -ktr -ktrNOOP -o$(PROJECTDIR)/languages/$(TARGET).pot -p $@ $^
+	@echo Updating Theme files...
+	@touch $(PROJECTDIR)/themes/$(TARGET).pot
+	@xgettext -C -cTRANSLATORS --from-code=utf-8 -F --no-wrap --add-location -kthInt -kthFloat -kthColor -kthAlign -o$(PROJECTDIR)/themes/$(TARGET).pot -p $@ $^
 
-%.lang: $(PROJECTDIR)/Languages/$(TARGET).pot
+%.lang: $(PROJECTDIR)/languages/$(TARGET).pot
 	@msgmerge -U -N --no-wrap --no-location --backup=none -q $@ $<
 	@touch $@
 
-%.them: $(PROJECTDIR)/Themes/$(TARGET).pot
+%.them: $(PROJECTDIR)/themes/$(TARGET).pot
 	@msgmerge -U -N --no-wrap --no-location --backup=none -q $@ $<
 	@touch $@
 

@@ -22,11 +22,11 @@
  * distribution.
  ***************************************************************************/
 #include <unistd.h>
-#include "ParentalControlSM.hpp"
-#include "settings/CSettings.h"
-#include "prompts/PromptWindows.h"
+#include "parentalcontrolsm.hpp"
+#include "settings/csettings.h"
+#include "prompts/promptwindows.h"
 #include "language/gettext.h"
-#include "utils/PasswordCheck.h"
+#include "utils/passwordcheck.h"
 
 static const char * OnOffText[MAX_ON_OFF] =
 {

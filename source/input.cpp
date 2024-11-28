@@ -20,7 +20,7 @@
 #include "menu.h"
 #include "video.h"
 #include "input.h"
-#include "GUI/gui.h"
+#include "gui/gui.h"
 #include "sys.h"
 #include "gecko.h"
 

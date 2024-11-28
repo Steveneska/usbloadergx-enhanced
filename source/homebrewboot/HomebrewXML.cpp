@@ -6,11 +6,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "FileOperations/fileops.h"
+#include "fileoperations/fileops.h"
 #include "xml/pugixml.hpp"
 #include "gecko.h"
 
-#include "HomebrewXML.h"
+#include "homebrewxml.h"
 
 #define ENTRIE_SIZE 8192
 

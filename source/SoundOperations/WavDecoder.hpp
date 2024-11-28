@@ -26,7 +26,7 @@
 #ifndef WAVDECODER_HPP_
 #define WAVDECODER_HPP_
 
-#include "SoundDecoder.hpp"
+#include "sounddecoder.hpp"
 
 typedef struct
 {

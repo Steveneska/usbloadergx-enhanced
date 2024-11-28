@@ -17,18 +17,18 @@
  ****************************************************************************/
 #include <gccore.h>
 #include <string.h>
-#include "ImageDownloader.h"
+#include "imagedownloader.h"
 #include "network/networkops.h"
-#include "prompts/PromptWindows.h"
-#include "prompts/ProgressWindow.h"
-#include "prompts/CheckboxPrompt.hpp"
-#include "FileOperations/fileops.h"
-#include "settings/CSettings.h"
-#include "settings/GameTitles.h"
+#include "prompts/promptwindows.h"
+#include "prompts/progresswindow.h"
+#include "prompts/checkboxprompt.hpp"
+#include "fileoperations/fileops.h"
+#include "settings/csettings.h"
+#include "settings/gametitles.h"
 #include "language/gettext.h"
-#include "usbloader/GetMissingGameFiles.hpp"
-#include "utils/StringTools.h"
-#include "usbloader/GameList.h"
+#include "usbloader/getmissinggamefiles.hpp"
+#include "utils/stringtools.h"
+#include "usbloader/gamelist.h"
 #include "wstring.hpp"
 #include "gecko.h"
 

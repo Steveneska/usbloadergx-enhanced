@@ -10,8 +10,8 @@
 
 #include "gui_filebrowser.h"
 #include "prompts/filebrowser.h"
-#include "settings/CSettings.h"
-#include "themes/CTheme.h"
+#include "settings/csettings.h"
+#include "themes/ctheme.h"
 
 /**
  * Constructor for the GuiFileBrowser class.

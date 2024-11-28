@@ -8,9 +8,9 @@
 #include <wiiuse/wpad.h>
 #include <vector>
 #include <string>
-#include "Controls/DeviceHandler.hpp"
-#include "settings/CSettings.h"
-#include "system/IosLoader.h"
+#include "controls/devicehandler.hpp"
+#include "settings/csettings.h"
+#include "system/iosloader.h"
 #include "lstub.h"
 #include "sys.h"
 #include "gecko.h"

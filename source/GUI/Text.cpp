@@ -1,6 +1,6 @@
-#include "settings/CSettings.h"
+#include "settings/csettings.h"
 #include "utils/tools.h"
-#include "Text.hpp"
+#include "text.hpp"
 
 Text::Text(const char * t, int s, GXColor c) :
 	GuiText(t, s, c)

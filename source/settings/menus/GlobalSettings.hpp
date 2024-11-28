@@ -24,7 +24,7 @@
 #ifndef GLOBAL_SETTINGS_HPP_
 #define GLOBAL_SETTINGS_HPP_
 
-#include "FlyingButtonsMenu.hpp"
+#include "flyingbuttonsmenu.hpp"
 
 class GlobalSettings : public FlyingButtonsMenu
 {

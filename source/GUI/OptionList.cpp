@@ -28,7 +28,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <gctypes.h>
-#include "OptionList.hpp"
+#include "optionlist.hpp"
 
 OptionList::OptionList()
 {

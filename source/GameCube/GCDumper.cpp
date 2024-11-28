@@ -29,15 +29,15 @@
 #include <malloc.h>
 #include <sys/statvfs.h>
 
-#include "GCDumper.hpp"
-#include "FileOperations/fileops.h"
+#include "gcdumper.hpp"
+#include "fileoperations/fileops.h"
 #include "language/gettext.h"
-#include "prompts/ProgressWindow.h"
+#include "prompts/progresswindow.h"
 #include "usbloader/disc.h"
 #include "usbloader/wdvd.h"
 #include "usbloader/wbfs/wbfs_fat.h"
 #include "usbloader/wbfs/wbfs_rw.h"
-#include "utils/ShowError.h"
+#include "utils/showerror.h"
 #include "utils/tools.h"
 #include "gecko.h"
 

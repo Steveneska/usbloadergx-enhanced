@@ -22,9 +22,9 @@
 
 #include "neek.hpp"
 #include "memory/mem2.h"
-#include "Controls/DeviceHandler.hpp"
-#include "FileOperations/fileops.h"
-#include "settings/CSettings.h"
+#include "controls/devicehandler.hpp"
+#include "fileoperations/fileops.h"
+#include "settings/csettings.h"
 #include "sys.h"
 #include "gecko.h"
 

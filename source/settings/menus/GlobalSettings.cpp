@@ -21,19 +21,19 @@
  * 3. This notice may not be removed or altered from any source
  * distribution.
  ***************************************************************************/
-#include "GlobalSettings.hpp"
-#include "themes/CTheme.h"
-#include "prompts/PromptWindows.h"
+#include "globalsettings.hpp"
+#include "themes/ctheme.h"
+#include "prompts/promptwindows.h"
 #include "network/update.h"
 #include "language/gettext.h"
-#include "GUISettingsMenu.hpp"
-#include "LoaderSettings.hpp"
-#include "ParentalControlSM.hpp"
-#include "SoundSettingsMenu.hpp"
-#include "CustomPathsSM.hpp"
-#include "FeatureSettingsMenu.hpp"
-#include "HardDriveSM.hpp"
-#include "BannerSettingsMenu.hpp"
+#include "guisettingsmenu.hpp"
+#include "loadersettings.hpp"
+#include "parentalcontrolsm.hpp"
+#include "soundsettingsmenu.hpp"
+#include "custompathssm.hpp"
+#include "featuresettingsmenu.hpp"
+#include "harddrivesm.hpp"
+#include "bannersettingsmenu.hpp"
 
 GlobalSettings::GlobalSettings()
 	: FlyingButtonsMenu(tr("Settings"))

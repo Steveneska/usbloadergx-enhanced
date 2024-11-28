@@ -34,9 +34,9 @@
 #include <string.h>
 #include <malloc.h>
 #include <sys/param.h>
-#include "prompts/ProgressWindow.h"
-#include "FileOperations/fileops.h"
-#include "ZipFile.h"
+#include "prompts/progresswindow.h"
+#include "fileoperations/fileops.h"
+#include "zipfile.h"
 #include "language/gettext.h"
 
 ZipFile::ZipFile(const char *filepath)

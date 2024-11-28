@@ -24,15 +24,15 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "CGameCategories.hpp"
-#include "GameTitles.h"
-#include "settings/CSettings.h"
-#include "usbloader/GameList.h"
+#include "cgamecategories.hpp"
+#include "gametitles.h"
+#include "settings/csettings.h"
+#include "usbloader/gamelist.h"
 #include "language/gettext.h"
-#include "FileOperations/fileops.h"
-#include "prompts/ProgressWindow.h"
-#include "xml/GameTDB.hpp"
-#include "utils/StringTools.h"
+#include "fileoperations/fileops.h"
+#include "prompts/progresswindow.h"
+#include "xml/gametdb.hpp"
+#include "utils/stringtools.h"
 #include "svnrev.h"
 
 #define VALID_CONFIG_REV 1084

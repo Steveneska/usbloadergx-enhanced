@@ -17,7 +17,7 @@
 #ifndef WIIPOINTER_H_
 #define WIIPOINTER_H_
 
-#include "GUI/gui.h"
+#include "gui/gui.h"
 #include "utils/timer.h"
 
 class WiiPointer

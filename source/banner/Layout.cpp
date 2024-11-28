@@ -21,9 +21,9 @@ misrepresented as being the original software.
 3. This notice may not be removed or altered from any source
 distribution.
 */
-#include "SystemMenu/SystemMenuResources.h"
-#include "Layout.h"
-#include "WiiFont.h"
+#include "systemmenu/systemmenuresources.h"
+#include "layout.h"
+#include "wiifont.h"
 
 Layout::Layout()
 	: header(0)

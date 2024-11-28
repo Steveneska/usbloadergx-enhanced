@@ -29,7 +29,7 @@
 #include <string>
 #include <vector>
 #include "xml/pugixml.hpp"
-#include "CCategoryList.hpp"
+#include "ccategorylist.hpp"
 
 class CGameCategories
 {

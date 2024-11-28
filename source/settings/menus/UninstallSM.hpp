@@ -24,7 +24,7 @@
 #ifndef UNINSTALL_MENU_HPP_
 #define UNINSTALL_MENU_HPP_
 
-#include "SettingsMenu.hpp"
+#include "settingsmenu.hpp"
 
 class UninstallSM : public SettingsMenu
 {

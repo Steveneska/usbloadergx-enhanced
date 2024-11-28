@@ -30,14 +30,14 @@ distribution.
 #include <list>
 #include <stack>
 
-#include "Texture.h"
-#include "Material.h"
-#include "Pane.h"
-#include "Picture.h"
-#include "Window.h"
-#include "WiiFont.h"
-#include "Textbox.h"
-#include "utils/U8Archive.h"
+#include "texture.h"
+#include "material.h"
+#include "pane.h"
+#include "picture.h"
+#include "window.h"
+#include "wiifont.h"
+#include "textbox.h"
+#include "utils/u8archive.h"
 
 typedef std::vector<std::string> PaletteList;
 

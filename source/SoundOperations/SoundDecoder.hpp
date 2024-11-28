@@ -30,8 +30,8 @@
 #include <gctypes.h>
 #include <asndlib.h>
 #include "utils/timer.h"
-#include "FileOperations/File.hpp"
-#include "BufferCircle.hpp"
+#include "fileoperations/file.hpp"
+#include "buffercircle.hpp"
 
 enum
 {

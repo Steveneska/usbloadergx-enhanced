@@ -25,8 +25,8 @@ distribution.
 #ifndef WII_BNR_MATERIAL_H_
 #define WII_BNR_MATERIAL_H_
 
-#include "Animator.h"
-#include "Texture.h"
+#include "animator.h"
+#include "texture.h"
 
 struct BannerResources;
 

@@ -15,9 +15,9 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  ****************************************************************************/
 #include "gecko.h"
-#include "SystemMenu/SystemMenuResources.h"
+#include "systemmenu/systemmenuresources.h"
 #include "memory/mem2.h"
-#include "utils/U8Archive.h"
+#include "utils/u8archive.h"
 #include "wad/nandtitle.h"
 
 SystemMenuResources *SystemMenuResources::instance = NULL;

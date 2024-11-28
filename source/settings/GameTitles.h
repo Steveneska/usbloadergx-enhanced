@@ -5,7 +5,7 @@
 #include <vector>
 #include <gctypes.h>
 #include "usbloader/disc.h"
-#include "SettingsEnums.h"
+#include "settingsenums.h"
 
 typedef struct _GameTitle
 {

@@ -17,7 +17,7 @@
 #ifndef BANNERSETTINGS_MENU_HPP_
 #define BANNERSETTINGS_MENU_HPP_
 
-#include "SettingsMenu.hpp"
+#include "settingsmenu.hpp"
 
 class BannerSettingsMenu : public SettingsMenu
 {

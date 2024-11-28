@@ -22,10 +22,10 @@
  * distribution.
  ***************************************************************************/
 #include <unistd.h>
-#include "SoundSettingsMenu.hpp"
-#include "settings/CSettings.h"
-#include "settings/SettingsPrompts.h"
-#include "prompts/PromptWindows.h"
+#include "soundsettingsmenu.hpp"
+#include "settings/csettings.h"
+#include "settings/settingsprompts.h"
+#include "prompts/promptwindows.h"
 #include "language/gettext.h"
 
 static const char * GameSoundText[] =

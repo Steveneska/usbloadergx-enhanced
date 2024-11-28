@@ -1,9 +1,9 @@
 #ifndef GAMEBROWSEMENU_HPP_
 #define GAMEBROWSEMENU_HPP_
 
-#include "GUI/gui_gamebrowser.h"
-#include "GUI/gui_searchbar.h"
-#include "utils/ThreadedTask.hpp"
+#include "gui/gui_gamebrowser.h"
+#include "gui/gui_searchbar.h"
+#include "utils/threadedtask.hpp"
 
 class GameBrowseMenu : public GuiWindow
 {
