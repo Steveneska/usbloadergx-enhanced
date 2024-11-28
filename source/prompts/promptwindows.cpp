@@ -278,8 +278,8 @@ void WindowCredits()
 
 	std::vector<GuiText *> txt;
 
-	const u8 *creditsFont = Resources::GetFile("font.ttf");
-	u32 creditsFontSize = Resources::GetFileSize("font.ttf");
+	const u8 *creditsFont = Resources::GetFile("font.otf");
+	u32 creditsFontSize = Resources::GetFileSize("font.otf");
 
 	GuiText * currentTxt = new GuiText(tr( "Credits" ), 28, ( GXColor ) {255, 255, 255, 255});
 	currentTxt->SetAlignment(ALIGN_CENTER, ALIGN_TOP);

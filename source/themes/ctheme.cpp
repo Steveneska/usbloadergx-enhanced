@@ -193,8 +193,8 @@ bool Theme::LoadFont(const char *path)
 	}
 	if(!loadedFont)
 	{
-		loadedFont = (FT_Byte *) Resources::GetFile("font.ttf");
-		loadedFontSize = Resources::GetFileSize("font.ttf");
+		loadedFont = (FT_Byte *) Resources::GetFile("font.otf");
+		loadedFontSize = Resources::GetFileSize("font.otf");
 	}
 
 	delete fontSystem;
