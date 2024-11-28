@@ -1,8 +1,8 @@
 <p align="center"><a href="https://github.com/Steveneska/usbloadergx-enhanced/" title="USB Loader GX"><img src="data/web/logo.png"></a></p>
 
 ## Description
-USB Loader GX Enhanced is a backup manager for the Nintendo Wii based on the original USB Loader GX, with
-bug fixes and a revamped user interface to:
+USB Loader GX Enhanced is a backup manager for the Nintendo Wii based on the original [USB Loader GX](https://github.com/wiidev/usbloadergx),
+with bug fixes and a revamped user interface to:
 
 - Play games from a USB storage device or an SD Card
 - Launch other homebrew apps
