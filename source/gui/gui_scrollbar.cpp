@@ -52,6 +52,7 @@ GuiScrollbar::GuiScrollbar(int h, u8 m)
 	arrowUpOver = Resources::GetImageData("scrollbar_arrowup.png");
 	scrollbarBox = Resources::GetImageData("scrollbar_box.png");
 	scrollbarBoxOver = Resources::GetImageData("scrollbar_box.png");
+	oneButtonScrollImgData = Resources::GetImageData("oneButtonScroll.png");
 
 	height = h;
 	width = MAX(scrollbarBox->GetWidth(), scrollbarTile->GetWidth());
